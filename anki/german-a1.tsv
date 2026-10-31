@@ -4,162 +4,486 @@
 #deck:Deutsch::A1
 #tags column:4
 der Abend, Abende	wieczór		A1 u01 n
+das Abendessen, Abendessen	kolacja		A1 u08 n
+abends	wieczorem		A1 u12 adv
 aber	ale		A1 u02 conj
+abfahren	odjeżdżać (der Zug fährt ab)		A1 u12 v
+absagen	odwoływać (termin)		A1 u12 v
 acht	osiem (8)		A1 u03 num
 achtzig	osiemdziesiąt (80)		A1 u03 num
 die Adresse, Adressen	adres		A1 u03 n
+alt	stary		A1 u05 adj
 das Alter	wiek (bez liczby mnogiej)		A1 u03 n
+am Montag	w poniedziałek		A1 u07 ph
+an	przy, na (pionowo)		A1 u10 prep
+anfangen	zaczynać (ich fange an, er fängt an)		A1 u12 v
+ankommen	przybywać (ich komme an)		A1 u12 v
+anrufen	dzwonić (ich rufe dich an)		A1 u12 v
+die Antwort, Antworten	odpowiedź		A1 u05 n
 antworten	odpowiadać		A1 u03 v
 die Anwendung, Anwendungen	aplikacja		A1 u04 n
+der Apfel, Äpfel	jabłko		A1 u08 n
+die Apotheke, Apotheken	apteka		A1 u10 n
+der April	kwiecień		A1 u07 n
+die Arbeit, Arbeiten	praca		A1 u12 n
 arbeiten	pracować (du arbeitest)		A1 u02 v
+arbeiten als	pracować jako		A1 u06 v
+der Architekt, Architekten	architekt (f. die Architektin)		A1 u06 n
 der Artikel, Artikel	rodzajnik; artykuł		A1 u04 n
+der Arzt, Ärzte	lekarz (f. die Ärztin)		A1 u06 n
 auch	też		A1 u02 adv
+auf	na		A1 u10 prep
 Auf Wiedersehen	Do widzenia (formalnie)		A1 u01 ph
+die Aufgabe, Aufgaben	zadanie		A1 u11 n
+aufräumen	sprzątać (porządkować)		A1 u12 v
+aufstehen	wstawać (ich stehe auf)		A1 u12 v
+der August	sierpień		A1 u07 n
 das Auto, Autos	samochód		A1 u04 n
+das Bad, Bäder	łazienka (też: das Badezimmer)		A1 u10 n
+der Bahnhof, Bahnhöfe	dworzec		A1 u10 n
+der Balkon, Balkone	balkon		A1 u10 n
+die Bank, Banken	bank (ława = die Bank, Bänke)		A1 u10 n
+Bar oder mit Karte?	Gotówką czy kartą?		A1 u09 ph
+das Bargeld	gotówka		A1 u09 n
+der Berater, Berater	konsultant (f. die Beraterin)		A1 u06 n
 der Beruf, Berufe	zawód		A1 u02 n
+die Besichtigung, Besichtigungen	oglądanie (mieszkania)		A1 u10 n
+bestellen	zamawiać		A1 u05 v
+besuchen	odwiedzać		A1 u05 v
+das Bett, Betten	łóżko		A1 u10 n
+bezahlen	płacić		A1 u08 v
+das Bier, Biere	piwo		A1 u08 n
 das Bild, Bilder	obraz, obrazek		A1 u04 n
 der Bildschirm, Bildschirme	ekran		A1 u04 n
+billig	tani		A1 u09 adj
 der Bindestrich, Bindestriche	myślnik, łącznik		A1 u03 n
 Bis bald	Do zobaczenia wkrótce		A1 u01 ph
 Bis morgen	Do jutra		A1 u01 ph
+Bis später!	Do zobaczenia później!		A1 u07 ph
 Bitte	Proszę (i „nie ma za co”)		A1 u01 ph
 Bitte schön	Proszę bardzo		A1 u01 ph
+blau	niebieski		A1 u09 adj
+bleiben	zostawać		A1 u10 v
 brauchen	potrzebować		A1 u03 v
+das Brot, Brote	chleb		A1 u08 n
+das Brötchen, Brötchen	bułka (CH: Brötli; A: Semmel)		A1 u08 n
+der Bruder, Brüder	brat		A1 u06 n
 das Buch, Bücher	książka		A1 u04 n
 buchstabieren	literować		A1 u03 v
 das Büro, Büros	biuro		A1 u04 n
+die Butter	masło		A1 u08 n
+das Café, Cafés	kawiarnia		A1 u08 n
 der Chef, Chefs	szef (f. die Chefin)		A1 u04 n
 der Code	kod (bez liczby mnogiej w znaczeniu źródła)		A1 u04 n
 der Computer, Computer	komputer		A1 u04 n
+da	tam, tu		A1 u10 adv
+danach	po tym		A1 u12 adv
 Danke	Dziękuję		A1 u01 ph
 Danke schön	Dziękuję bardzo		A1 u01 ph
+dann	potem		A1 u12 adv
+Darf ich hier parken?	Czy mogę tu zaparkować?		A1 u11 ph
+Das geht nicht.	To nie jest możliwe.		A1 u11 ph
+Das ist alles.	To wszystko.		A1 u09 ph
 Das ist ein Computer.	To jest komputer.		A1 u04 ph
 Das ist eine Datei.	To jest plik.		A1 u04 ph
 Das ist richtig.	To jest poprawne.		A1 u03 ph
+Das ist zu teuer.	To jest za drogie.		A1 u09 ph
 die Datei, Dateien	plik		A1 u04 n
 die Datenbank, Datenbanken	baza danych		A1 u04 n
+das Datum, Daten	data		A1 u07 n
+dein	twój		A1 u06 pron
+Der Wievielte ist heute?	Którego dziś jest?		A1 u07 ph
 Deutsch	język niemiecki, niemiecki		A1 u02 other
 Deutschland	Niemcy (bez rodzajnika)		A1 u02 other
+der Dezember	grudzień		A1 u07 n
+Die Speisekarte, bitte.	Poproszę menu.		A1 u08 ph
+Die Wohnung hat drei Zimmer.	Mieszkanie ma trzy pokoje.		A1 u10 ph
+der Dienstag, Dienstage	wtorek		A1 u07 n
+der Donnerstag, Donnerstage	czwartek		A1 u07 n
+dort	tam		A1 u10 adv
 drei	trzy (3)		A1 u03 num
 dreißig	trzydzieści (30; CH: dreissig)		A1 u03 num
 der Drucker, Drucker	drukarka		A1 u04 n
 du	ty (nieformalnie)		A1 u02 pron
+dürfen	wolno (ich darf, du darfst)		A1 u11 v
+der Durst	pragnienie		A1 u05 n
+die Dusche, Duschen	prysznic		A1 u12 n
+duschen	brać prysznic		A1 u12 v
 die E-Mail, E-Mails	e-mail (też: die E-Mail-Adresse)		A1 u03 n
+das Ei, Eier	jajko		A1 u08 n
 ein bisschen	trochę		A1 u02 ph
+einkaufen	robić zakupy		A1 u12 v
+einladen	zapraszać (er lädt ein)		A1 u12 v
 eins	jeden (1; przed rzeczownikiem ein, eine)		A1 u03 num
 die Einzahl	liczba pojedyncza (też: der Singular)		A1 u04 n
 elf	jedenaście (11)		A1 u03 num
+die Eltern	rodzice (tylko liczba mnoga)		A1 u06 n
 Englisch	język angielski		A1 u02 other
 Entschuldigung	Przepraszam (zwrócenie uwagi)		A1 u01 ph
 der Entwickler, Entwickler	programista (f. die Entwicklerin)		A1 u02 n
 er	on		A1 u02 pron
+erklären	wyjaśniać		A1 u11 v
 es	ono		A1 u02 pron
 Es tut mir leid	Przykro mi (przeprosiny)		A1 u01 ph
+das Essen	jedzenie; posiłek		A1 u08 n
+essen	jeść (du isst, er isst)		A1 u08 v
+der Euro, Euro	euro		A1 u08 n
+fahren	jechać (du fährst, er fährt)		A1 u09 v
 falsch	błędny		A1 u03 adj
+die Familie, Familien	rodzina		A1 u06 n
+die Farbe, Farben	kolor		A1 u09 n
+der Februar	luty (A: der Feber)		A1 u07 n
 der Fehler, Fehler	błąd		A1 u04 n
+der Feierabend, Feierabende	koniec pracy; wieczór po pracy		A1 u12 n
 das Fenster, Fenster	okno		A1 u04 n
+fernsehen	oglądać telewizję		A1 u12 v
+finden	znajdować; uważać (du findest)		A1 u05 v
 die Firma, Firmen	firma		A1 u02 n
+der Fisch, Fische	ryba		A1 u08 n
+die Flasche, Flaschen	butelka		A1 u08 n
+das Fleisch	mięso		A1 u08 n
+der Flur, Flure	korytarz		A1 u10 n
 das Formular, Formulare	formularz		A1 u03 n
+die Frage, Fragen	pytanie		A1 u05 n
 fragen	pytać		A1 u03 v
+der Franken, Franken	frank szwajcarski (CHF)		A1 u08 n
+die Frau, Frauen	kobieta; żona; Pani		A1 u06 n
+der Freitag, Freitage	piątek		A1 u07 n
+der Freund, Freunde	przyjaciel; chłopak (f. die Freundin)		A1 u06 n
 Freut mich	Miło mi		A1 u01 ph
+früh	wcześnie		A1 u07 adv
+das Frühstück, Frühstücke	śniadanie		A1 u08 n
+frühstücken	jeść śniadanie		A1 u12 v
 fünf	pięć (5)		A1 u03 num
 fünfzig	pięćdziesiąt (50)		A1 u03 num
+der Garten, Gärten	ogród		A1 u10 n
+geben	dawać (du gibst, es gibt)		A1 u09 v
+gehen	iść		A1 u10 v
+gelb	żółty		A1 u09 adj
+das Geld	pieniądze (bez liczby mnogiej)		A1 u05 n
+das Gemüse	warzywa		A1 u08 n
+das Geschäft, Geschäfte	sklep; interes		A1 u09 n
 das Geschlecht, Geschlechter	rodzaj (gramatyczny); płeć		A1 u04 n
+die Geschwister	rodzeństwo (tylko liczba mnoga)		A1 u06 n
+gestern	wczoraj		A1 u07 adv
+das Glas, Gläser	szklanka		A1 u08 n
+gleich	zaraz		A1 u11 adv
+das Gramm	gram (po liczbie bez końcówki)		A1 u09 n
+groß	duży, wysoki (CH: gross)		A1 u05 adj
+die Größe, Größen	rozmiar; wielkość (CH: Grösse)		A1 u09 n
+die Großmutter, Großmütter	babcia		A1 u06 n
+der Großvater, Großväter	dziadek		A1 u06 n
 Grüezi	Dzień dobry (CH) (dialekt; w sklepie i biurze)		A1 u01 ph
+grün	zielony		A1 u09 adj
+günstig	korzystny cenowo		A1 u09 adj
 Gut, danke	Dobrze, dziękuję		A1 u01 ph
+gut	dobry		A1 u05 adj
 Gute Besserung	Szybkiego powrotu do zdrowia		A1 u01 ph
 Gute Nacht	Dobranoc (tylko na pożegnanie przed snem)		A1 u01 ph
 Guten Abend	Dobry wieczór		A1 u01 ph
+Guten Appetit!	Smacznego!		A1 u08 ph
 Guten Morgen	Dzień dobry (rano) (do ok. 10–11)		A1 u01 ph
 Guten Tag	Dzień dobry (formalnie, cały dzień)		A1 u01 ph
+haben	mieć (ich habe, du hast, er hat)		A1 u05 v
+Haben Sie das in Größe M?	Czy macie to w rozmiarze M?		A1 u09 ph
+Haben Sie einen Tisch für zwei?	Czy jest stolik dla dwóch osób?		A1 u08 ph
+halb	pół (halb drei = 2:30)		A1 u07 other
 Hallo	Cześć (nieformalnie)		A1 u01 ph
 das Handy, Handys	telefon komórkowy (CH też: das Natel (przestarz.), das Mobiltelefon)		A1 u03 n
+das Haus, Häuser	dom		A1 u10 n
+heiraten	wziąć ślub		A1 u06 v
+heiß	gorący (CH: heiss)		A1 u08 adj
 heißen	nazywać się (ich heiße, du heißt)		A1 u02 v
+helfen	pomagać (du hilfst; + Dativ)		A1 u11 v
+das Hemd, Hemden	koszula		A1 u09 n
 Herzlich willkommen	Serdecznie witamy		A1 u01 ph
+heute	dziś		A1 u07 adv
+hier	tutaj		A1 u10 adv
+die Hilfe	pomoc (bez liczby mnogiej)		A1 u11 n
+hinter	za		A1 u10 prep
 hören	słyszeć, słuchać		A1 u03 v
+die Hose, Hosen	spodnie		A1 u09 n
 hundert	sto (100)		A1 u03 num
+der Hunger	głód		A1 u05 n
 ich	ja		A1 u02 pron
 Ich bin dreißig Jahre alt.	Mam trzydzieści lat.		A1 u03 ph
+Ich bin Single.	Jestem sam/sama.		A1 u06 ph
+Ich habe Durst.	Chce mi się pić.		A1 u05 ph
+Ich habe eine Frage.	Mam pytanie.		A1 u05 ph
+Ich habe einen Termin.	Mam umówione spotkanie.		A1 u07 ph
+Ich habe Hunger.	Jestem głodny. (dosł. „mam głód”)		A1 u05 ph
+Ich habe keine Zeit.	Nie mam czasu.		A1 u05 ph
+Ich habe zwei Brüder.	Mam dwóch braci.		A1 u06 ph
+Ich hätte gern ein Wasser.	Poproszę wodę. (grzeczniej)		A1 u08 ph
+Ich möchte einen Kaffee.	Poproszę kawę.		A1 u08 ph
+Ich muss gehen.	Muszę iść.		A1 u11 ph
+Ich schaue nur.	Tylko się rozglądam.		A1 u09 ph
+Ich stehe um sieben Uhr auf.	Wstaję o siódmej.		A1 u12 ph
 Ich verstehe nicht.	Nie rozumiem.		A1 u02 ph
+Ich wohne zur Miete.	Mieszkam w wynajętym mieszkaniu.		A1 u10 ph
+die Idee, Ideen	pomysł		A1 u05 n
 ihr	wy		A1 u02 pron
+im Januar	w styczniu		A1 u07 ph
+immer	zawsze		A1 u07 adv
+in	w, do (Wo? in + Dativ; Wohin? in + Akkusativ)		A1 u10 prep
 der Ingenieur, Ingenieure	inżynier (f. die Ingenieurin)		A1 u02 n
 ja	tak		A1 u01 adv
+die Jacke, Jacken	kurtka		A1 u09 n
 das Jahr, Jahre	rok		A1 u03 n
+der Januar	styczeń (A: der Jänner)		A1 u07 n
+jetzt	teraz		A1 u07 adv
+der Juli	lipiec		A1 u07 n
+jung	młody		A1 u06 adj
+der Juni	czerwiec		A1 u07 n
 das Kabel, Kabel	kabel		A1 u04 n
+der Kaffee, Kaffees	kawa		A1 u08 n
+der Kalender, Kalender	kalendarz		A1 u07 n
+kalt	zimny		A1 u08 adj
+Kann ich Ihnen helfen?	Czy mogę w czymś pomóc?		A1 u09 ph
+Kannst du mir helfen?	Czy możesz mi pomóc?		A1 u11 ph
+die Karte, Karten	karta; bilet; mapa		A1 u09 n
+die Kartoffel, Kartoffeln	ziemniak		A1 u08 n
+der Käse, Käse	ser		A1 u08 n
+die Kasse, Kassen	kasa		A1 u09 n
+kaufen	kupować		A1 u05 v
+die Kaution, Kautionen	kaucja (CH: die Mietkaution)		A1 u10 n
+kein	żaden, żadna, żadne (przeczy rzeczownik)		A1 u05 other
+Kein Problem.	Nie ma problemu.		A1 u05 ph
+der Keller, Keller	piwnica		A1 u10 n
+der Kellner, Kellner	kelner (f. die Kellnerin)		A1 u08 n
+kennen	znać (osobę) (nieregularny)		A1 u06 v
+das Kilo, Kilos	kilogram		A1 u09 n
+das Kind, Kinder	dziecko		A1 u06 n
+klein	mały		A1 u05 adj
+kochen	gotować		A1 u08 v
 der Kollege, Kollegen	kolega z pracy (f. die Kollegin)		A1 u02 n
 kommen	przychodzić; pochodzić (ich komme aus …)		A1 u02 v
+Kommen Sie herein!	Proszę wejść!		A1 u12 ph
+können	móc; umieć (ich kann, du kannst)		A1 u11 v
+Können Sie das wiederholen?	Czy może Pan to powtórzyć?		A1 u11 ph
+kosten	kosztować		A1 u08 v
+das Krankenhaus, Krankenhäuser	szpital (CH: das Spital)		A1 u10 n
+die Kreditkarte, Kreditkarten	karta kredytowa		A1 u09 n
+die Küche, Küchen	kuchnia		A1 u10 n
+der Kunde, Kunden	klient (f. die Kundin)		A1 u11 n
+der Laden, Läden	sklep (CH: der Laden)		A1 u09 n
+die Lampe, Lampen	lampa		A1 u05 n
 das Land, Länder	kraj		A1 u02 n
+langsam	wolny		A1 u05 adj
 Langsamer, bitte.	Wolniej, proszę.		A1 u02 ph
 der Laptop, Laptops	laptop		A1 u04 n
+leben	żyć		A1 u06 v
+lecker	smaczny		A1 u08 adj
+ledig	stanu wolnego		A1 u06 adj
+der Lehrer, Lehrer	nauczyciel (f. die Lehrerin)		A1 u06 n
+leider	niestety		A1 u11 adv
 lernen	uczyć się		A1 u02 v
+lesen	czytać (du liest, er liest)		A1 u09 v
+liegen	leżeć		A1 u10 v
+links	po lewej, w lewo		A1 u10 adv
+der Liter, Liter	litr		A1 u09 n
+Mach das bitte!	Zrób to, proszę!		A1 u12 ph
 machen	robić		A1 u03 v
+der Mai	maj		A1 u07 n
+der Manager, Manager	menedżer (f. die Managerin)		A1 u06 n
+manchmal	czasami		A1 u07 adv
+der Mann, Männer	mężczyzna; mąż		A1 u06 n
+der März	marzec		A1 u07 n
 die Maus, Mäuse	mysz		A1 u04 n
+das Meeting, Meetings	spotkanie (robocze)		A1 u11 n
 die Mehrzahl	liczba mnoga (też: der Plural)		A1 u04 n
+mein	mój (mein, meine, mein, meine)		A1 u06 pron
 Merci	Dziękuję (CH) (też w DE/CH potocznie)		A1 u01 ph
+die Miete, Mieten	czynsz (CH: der Mietzins)		A1 u10 n
+mieten	wynajmować (jako najemca)		A1 u10 v
+die Milch	mleko		A1 u08 n
+die Minute, Minuten	minuta		A1 u07 n
+mitkommen	iść razem, jechać razem		A1 u12 v
+der Mittag, Mittage	południe		A1 u07 n
+das Mittagessen, Mittagessen	obiad (CH: Zmittag (dialekt))		A1 u08 n
+mittags	w południe		A1 u12 adv
+der Mittwoch, Mittwoche	środa		A1 u07 n
+möchten	chcieć (grzecznie) (ich möchte, du möchtest)		A1 u08 v
+der Monat, Monate	miesiąc		A1 u07 n
+der Montag, Montage	poniedziałek		A1 u07 n
 der Morgen, Morgen	ranek		A1 u01 n
+morgen	jutro (nie mylić z der Morgen)		A1 u07 adv
+morgens	rano (codziennie)		A1 u12 adv
+müssen	musieć (ich muss, du musst)		A1 u11 v
+die Mutter, Mütter	matka		A1 u06 n
+nach Hause	do domu		A1 u10 adv
+der Nachmittag, Nachmittage	popołudnie		A1 u07 n
 der Nachname, Nachnamen	nazwisko		A1 u02 n
 die Nacht, Nächte	noc		A1 u01 n
+nachts	w nocy		A1 u12 adv
 der Name, Namen	nazwa; imię		A1 u02 n
+natürlich	oczywiście		A1 u11 adv
+neben	obok		A1 u10 prep
+die Nebenkosten	opłaty dodatkowe (tylko liczba mnoga)		A1 u10 n
+nehmen	brać (du nimmst, er nimmt)		A1 u09 v
 nein	nie		A1 u01 adv
 das Netzwerk, Netzwerke	sieć		A1 u04 n
+neu	nowy		A1 u05 adj
 neun	dziewięć (9)		A1 u03 num
 neunzig	dziewięćdziesiąt (90)		A1 u03 num
+nicht	nie (przeczy czasownik lub przymiotnik)		A1 u05 adv
+nie	nigdy		A1 u07 adv
 Noch einmal, bitte.	Jeszcze raz, proszę.		A1 u02 ph
+der November	listopad		A1 u07 n
+die Nudeln	makaron (tylko liczba mnoga)		A1 u08 n
 null	zero (0)		A1 u03 num
 die Nummer, Nummern	numer		A1 u03 n
+oben	na górze		A1 u10 adv
+das Obst	owoce		A1 u08 n
 oder	albo, czy		A1 u02 conj
+oft	często		A1 u07 adv
+der Oktober	październik		A1 u07 n
 der Ordner, Ordner	folder		A1 u04 n
 Österreich	Austria (bez rodzajnika)		A1 u02 other
+die Packung, Packungen	opakowanie		A1 u09 n
+das Papier, Papiere	papier		A1 u05 n
+der Park, Parks	park		A1 u10 n
+der Parkplatz, Parkplätze	miejsce parkingowe		A1 u11 n
+passen	pasować		A1 u09 v
 das Passwort, Passwörter	hasło		A1 u04 n
+die Pause, Pausen	przerwa		A1 u11 n
+die Pflicht, Pflichten	obowiązek		A1 u11 n
 Polen	Polska (bez rodzajnika)		A1 u02 other
 Polnisch	język polski (bez rodzajnika)		A1 u02 other
+die Post	poczta (bez liczby mnogiej)		A1 u10 n
 die Postleitzahl, Postleitzahlen	kod pocztowy (PLZ)		A1 u03 n
+der Preis, Preise	cena		A1 u09 n
+das Problem, Probleme	problem		A1 u05 n
 das Programm, Programme	program		A1 u04 n
 Prost	Na zdrowie (toast)		A1 u01 ph
+der Pullover, Pullover	sweter		A1 u09 n
 der Punkt, Punkte	kropka; punkt (w adresie e-mail)		A1 u03 n
+pünktlich	punktualny		A1 u07 adj
+der Rappen, Rappen	rappen (grosz szwajcarski) (100 Rappen = 1 Franken)		A1 u08 n
 rechnen	liczyć		A1 u03 v
+die Rechnung, Rechnungen	rachunek		A1 u08 n
+rechts	po prawej, w prawo		A1 u10 adv
+das Regal, Regale	regał		A1 u10 n
+die Regel, Regeln	reguła		A1 u11 n
+der Reis	ryż		A1 u08 n
+das Restaurant, Restaurants	restauracja		A1 u08 n
 richtig	poprawny		A1 u03 adj
+rot	czerwony		A1 u09 adj
+Ruf mich an!	Zadzwoń do mnie!		A1 u12 ph
+der Saft, Säfte	sok		A1 u08 n
+der Salat, Salate	sałatka; sałata		A1 u08 n
+der Samstag, Samstage	sobota (też: der Sonnabend (północ DE))		A1 u07 n
+schicken	wysyłać		A1 u11 v
+das Schlafzimmer, Schlafzimmer	sypialnia		A1 u10 n
+schlecht	zły, kiepski		A1 u05 adj
+der Schlüssel, Schlüssel	klucz		A1 u05 n
+schmecken	smakować		A1 u08 v
+schnell	szybki		A1 u05 adj
 die Schnittstelle, Schnittstellen	interfejs, API		A1 u04 n
+der Schrank, Schränke	szafa		A1 u10 n
 schreiben	pisać		A1 u03 v
+der Schuh, Schuhe	but (zwykle w liczbie mnogiej)		A1 u09 n
+schwarz	czarny		A1 u09 adj
 die Schweiz	Szwajcaria (z rodzajnikiem; CH)		A1 u02 n
+die Schwester, Schwestern	siostra		A1 u06 n
 sechs	sześć (6)		A1 u03 num
 sechzig	sześćdziesiąt (60)		A1 u03 num
+sehen	widzieć (du siehst, er sieht)		A1 u05 v
 sehr	bardzo		A1 u02 adv
+Sei vorsichtig!	Bądź ostrożny!		A1 u12 ph
 sein	być (ich bin, du bist, er ist)		A1 u02 v
+sein	jego (też: być (czasownik))		A1 u06 pron
+der September	wrzesień		A1 u07 n
 der Server, Server	serwer		A1 u04 n
 sie	ona; oni, one (Sie (wielką) = Pan/Pani/Państwo)		A1 u02 pron
 sieben	siedem (7)		A1 u03 num
 siebzig	siedemdziesiąt (70)		A1 u03 num
+sitzen	siedzieć		A1 u10 v
+das Sofa, Sofas	sofa		A1 u10 n
+sofort	natychmiast		A1 u11 adv
 die Software	oprogramowanie (bez liczby mnogiej)		A1 u04 n
+der Sohn, Söhne	syn		A1 u06 n
+sollen	mieć powinność, mieć zrobić (ich soll, du sollst)		A1 u11 v
+der Sonntag, Sonntage	niedziela		A1 u07 n
+spät	późno		A1 u07 adv
+später	później		A1 u12 adv
+die Speisekarte, Speisekarten	menu		A1 u08 n
 die Sprache, Sprachen	język		A1 u02 n
 sprechen	mówić (du sprichst (nieregularny))		A1 u02 v
 die Stadt, Städte	miasto		A1 u02 n
+stehen	stać		A1 u10 v
+der Stift, Stifte	długopis, pisak		A1 u05 n
+Stimmt so.	Reszty nie trzeba.		A1 u08 ph
 die Straße, Straßen	ulica (CH: Strasse)		A1 u03 n
+das Stück, Stücke	sztuka		A1 u09 n
+der Student, Studenten	student (f. die Studentin)		A1 u06 n
 studieren	studiować		A1 u02 v
 der Stuhl, Stühle	krzesło		A1 u04 n
+die Stunde, Stunden	godzina (czas trwania)		A1 u07 n
+suchen	szukać		A1 u05 v
+der Supermarkt, Supermärkte	supermarket		A1 u09 n
+die Suppe, Suppen	zupa		A1 u08 n
+süß	słodki (CH: süss)		A1 u08 adj
 der Tag, Tage	dzień		A1 u01 n
+der Tagesablauf	plan dnia (bez liczby mnogiej)		A1 u12 n
 die Tasche, Taschen	torba		A1 u04 n
+die Tasse, Tassen	filiżanka		A1 u08 n
 die Tastatur, Tastaturen	klawiatura		A1 u04 n
 tausend	tysiąc (1000)		A1 u03 num
 das Team, Teams	zespół		A1 u04 n
+der Tee, Tees	herbata		A1 u08 n
 die Telefonnummer, Telefonnummern	numer telefonu		A1 u03 n
+der Termin, Termine	termin, umówione spotkanie		A1 u07 n
+teuer	drogi		A1 u09 adj
 der Tisch, Tische	stół		A1 u04 n
+die Tochter, Töchter	córka		A1 u06 n
+tragen	nosić (du trägst, er trägt)		A1 u09 v
+trinken	pić		A1 u08 v
+das Trinkgeld, Trinkgelder	napiwek		A1 u08 n
 Tschüss	Cześć, na razie (nieformalnie)		A1 u01 ph
 die Tür, Türen	drzwi		A1 u04 n
+die Tüte, Tüten	torebka (CH: das Säckli)		A1 u09 n
+über	nad, ponad		A1 u10 prep
 Uf Wiederluege	Do widzenia (CH) (dialekt, rozumieć)		A1 u01 ph
+die Uhr, Uhren	zegar; godzina (Es ist 8 Uhr.)		A1 u07 n
+um acht Uhr	o ósmej		A1 u07 ph
+Um wie viel Uhr?	O której godzinie?		A1 u07 ph
 und	i		A1 u02 conj
 Und dir?	A tobie? (nieformalnie)		A1 u01 ph
 Und Ihnen?	A Panu / Pani? (formalnie)		A1 u01 ph
+unser	nasz (euer = wasz)		A1 u06 pron
+unten	na dole		A1 u10 adv
+unter	pod		A1 u10 prep
 der Unterstrich, Unterstriche	podkreślnik		A1 u03 n
+der Vater, Väter	ojciec		A1 u06 n
+vegetarisch	wegetariański		A1 u08 adj
+das Verbot, Verbote	zakaz		A1 u11 n
+verheiratet	żonaty, zamężna		A1 u06 adj
+der Verkäufer, Verkäufer	sprzedawca (f. die Verkäuferin)		A1 u06 n
+der Vermieter, Vermieter	wynajmujący (f. die Vermieterin)		A1 u10 n
 verstehen	rozumieć		A1 u02 v
+viel	dużo		A1 u09 adj
 Viel Erfolg	Powodzenia		A1 u01 ph
 vielleicht	może		A1 u01 adv
 vier	cztery (4)		A1 u03 num
+das Viertel, Viertel	kwadrans; ćwierć		A1 u07 n
 vierzig	czterdzieści (40)		A1 u03 num
+vor	przed		A1 u10 prep
+der Vormittag, Vormittage	przedpołudnie		A1 u07 n
 der Vorname, Vornamen	imię		A1 u02 n
+wann	kiedy		A1 u07 other
+warten	czekać (warten auf + Akkusativ)		A1 u11 v
 was	co		A1 u02 pron
 Was ist das?	Co to jest?		A1 u04 ph
+Was kostet das?	Ile to kosztuje?		A1 u08 ph
+Was machst du beruflich?	Czym się zajmujesz zawodowo?		A1 u06 ph
 Was sind Sie von Beruf?	Czym się Pan/Pani zajmuje?		A1 u02 ph
+das Wasser	woda		A1 u08 n
+der Wecker, Wecker	budzik		A1 u12 n
+der Weg, Wege	droga		A1 u12 n
+der Wein, Weine	wino		A1 u08 n
+weiß	biały (CH: weiss)		A1 u09 adj
+wenig	mało		A1 u09 adj
 wer	kto		A1 u02 pron
 wie	jak		A1 u02 pron
 Wie alt bist du?	Ile masz lat?		A1 u03 ph
@@ -167,14 +491,34 @@ Wie geht's?	Jak się masz? (nieformalnie)		A1 u01 ph
 Wie heißen Sie?	Jak się Pan/Pani nazywa?		A1 u02 ph
 Wie ist Ihre Telefonnummer?	Jaki jest Pana/Pani numer telefonu?		A1 u03 ph
 Wie schreibt man das?	Jak to się pisze?		A1 u03 ph
+Wie spät ist es?	Która godzina?		A1 u07 ph
+Wie viel kostet das zusammen?	Ile to kosztuje razem?		A1 u09 ph
+Wie viel Uhr ist es?	Która jest godzina?		A1 u07 ph
+wiederholen	powtarzać		A1 u11 v
 wir	my		A1 u02 pron
 wo	gdzie		A1 u02 pron
+Wo ist das Büro?	Gdzie jest biuro?		A1 u10 ph
+die Woche, Wochen	tydzień		A1 u07 n
+das Wochenende, Wochenenden	weekend		A1 u07 n
 woher	skąd		A1 u02 pron
 Woher kommen Sie?	Skąd Pan/Pani pochodzi?		A1 u02 ph
+Wohin gehst du?	Dokąd idziesz?		A1 u10 ph
 wohnen	mieszkać (ich wohne in …)		A1 u02 v
+die Wohnung, Wohnungen	mieszkanie (CH: też die Wohnung)		A1 u10 n
+das Wohnzimmer, Wohnzimmer	salon		A1 u10 n
+wollen	chcieć (zdecydowanie) (ich will, du willst)		A1 u11 v
 das Wort, Wörter	słowo		A1 u01 n
 die Zahl, Zahlen	liczba		A1 u03 n
+Zahlen, bitte!	Poproszę rachunek.		A1 u08 ph
 zehn	dziesięć (10)		A1 u03 num
+zeigen	pokazywać		A1 u11 v
+die Zeit	czas (w tym znaczeniu bez liczby mnogiej)		A1 u05 n
+das Zentrum, Zentren	centrum		A1 u10 n
+das Zimmer, Zimmer	pokój		A1 u10 n
+zu Hause	w domu		A1 u10 adv
+zuerst	najpierw		A1 u12 adv
+zurückkommen	wracać		A1 u12 v
 zwanzig	dwadzieścia (20)		A1 u03 num
 zwei	dwa (2; przez telefon często „zwo”)		A1 u03 num
+zwischen	między		A1 u10 prep
 zwölf	dwanaście (12)		A1 u03 num
