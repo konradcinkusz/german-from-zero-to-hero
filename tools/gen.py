@@ -228,6 +228,12 @@ def build():
             v[f"{k}.{L}"] = per[L][k]
     for k in ("exercises", "dialogs", "traps", "swiss", "work", "verify", "written", "candos"):
         v[f"{k}.total"] = cnt[k]
+    # fact flags also live in the reference appendices D and E (not in F, which only
+    # explains the mark): count them so the ledger is the whole book's, not the units'
+    v["verify.units"] = cnt["verify"]
+    for app in ("appD-switzerland", "appE-resources"):
+        t = re.sub(r"(?<!\\)%.*", "", (ROOT / f"appendices/{app}.tex").read_text(encoding="utf-8"))
+        v["verify.total"] += len(re.findall(r"\\verify\{", t))
     v["nouns.der"] = sum(1 for r in allrows if r["pos"] == "n" and r["de"].startswith("der "))
     v["nouns.die"] = sum(1 for r in allrows if r["pos"] == "n" and r["de"].startswith("die "))
     v["nouns.das"] = sum(1 for r in allrows if r["pos"] == "n" and r["de"].startswith("das "))

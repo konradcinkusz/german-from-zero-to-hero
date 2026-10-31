@@ -1,0 +1,80 @@
+\unitopen{44}
+\begin{candos}
+\item napisać raport o incydencie po niemiecku (streszczenie, oś czasu, przyczyna, działania);
+\item napisać krótką decyzję architektoniczną (kontekst, decyzja, alternatywy, konsekwencje);
+\item pisać dokumentację zrozumiałą dla czytelnika, który nie zna projektu;
+\item sprawdzić rejestr i spójność terminów w tekście technicznym.
+\end{candos}
+
+\section{Słownictwo}
+\vocabtable{44}
+
+\section{Raport o incydencie}
+\begin{center}\small
+\begin{tabular}{@{}p{0.24\linewidth}p{0.68\linewidth}@{}}
+\toprule
+\textsf{\textbf{Sekcja}} & \textsf{\textbf{Przykład}}\\
+\midrule
+\de{Zusammenfassung} & \de{Am 12.\ März fiel der Zahlungsdienst von 14:05 bis 14:50 Uhr aus. Betroffen waren alle Kunden in Europa.}\\
+\de{Zeitleiste} & \de{14:05 Alarm ausgelöst. 14:12 Ursache gefunden. 14:50 Dienst wiederhergestellt.}\\
+\de{Grundursache} & \de{Ein Zertifikat war abgelaufen, weil die automatische Erneuerung nicht konfiguriert war.}\\
+\de{Maßnahmen} & \de{Das Zertifikat wurde erneuert. Ein Alarm wurde eingerichtet, damit sich das nicht wiederholt.}\\
+\de{Nächste Schritte} & \de{Das Team prüft bis Freitag alle weiteren Zertifikate.}\\
+\bottomrule
+\end{tabular}
+\end{center}
+Tło: Präteritum i Passiv dla przeszłych zdarzeń (jednostki 28, 30), Präsens dla stanu obecnego, \de{Futur} lub Präsens z czasem dla planu.
+Rejestr: bez wykrzykników, bez ocen, z liczbami i godzinami.
+
+\section{Decyzja architektoniczna (ADR) po niemiecku}
+Nagłówki: \de{Titel}, \de{Status} (\de{vorgeschlagen}, \de{akzeptiert}, \de{abgelöst}), \de{Kontext}, \de{Entscheidung}, \de{Alternativen}, \de{Konsequenzen}.
+Wzór: \de{Wir verwenden eine PostgreSQL-Datenbank pro Dienst. Alternativen waren eine gemeinsame Datenbank und ein Dokumentenspeicher.
+Die Entscheidung erhöht die Entkopplung, erfordert aber mehr Betriebsaufwand.}
+
+\begin{zasada}[Pisz dla czytelnika, który nie zna kontekstu]
+Pierwsze zdanie ma odpowiedzieć na „co i dla kogo”. Nie zakładaj, że czytelnik wie, o jaki incydent lub system chodzi. Jeden termin = jedno
+znaczenie; pozostaw angielskie nazwy własne, ale rodzajniki podawaj po niemiecku (\de{der Cache}, \de{die Pipeline}).
+\end{zasada}
+
+\begin{falle}
+Typowy błąd: mieszanie czasów w raporcie (\de{Der Server fällt aus und wir haben das Problem gelöst}). Zasada: przeszłość w Präteritum (lub Perfekt w mowie),
+stan obecny w Präsens. Drugi: zbyt długie zdania z kilkoma zdaniami podrzędnymi: dziel. Trzeci: ocenianie osób (\de{Anna hat vergessen \dots}) zamiast opisu przyczyn
+systemowych; w kulturze blameless raport mówi o procesie, nie o winnym.
+\end{falle}
+
+\begin{szwajcaria}
+Szwajcarska dokumentacja jest zwykle po niemiecku lub po angielsku, zależnie od zespołu; rejestr jest formalny i rzeczowy.
+Kluczowe: dokładne daty i godziny (24 h, \de{14:05 Uhr}), zapis dat dd.mm.rrrr, \de{ss} zamiast \de{ß}. Raporty kierowane do klienta
+często przechodzą przez \de{Review} u przełożonego.
+\end{szwajcaria}
+
+\begin{praca}
+Szablon na start: \de{Kurzfassung: \dots{} Auswirkung: \dots{} Ursache: \dots{} Behebung: \dots{} Verbesserungen: \dots} Wypełnij go po każdym
+incydencie, w pięciu zdaniach, i poproś kolegę o sprawdzenie zrozumiałości.
+\end{praca}
+
+\section{Dialogi}
+\textbf{Dialog 1 --- omówienie raportu}
+\begin{dialog}
+\turn{A}{Ich habe den Bericht gelesen. Die Grundursache ist nachvollziehbar, aber die Zeitleiste ist nicht vollständig.}{Przeczytałem raport. Przyczyna źródłowa jest zrozumiała, ale oś czasu nie jest kompletna.}
+\turn{B}{Ich ergänze die Uhrzeiten und beschreibe die Auswirkungen genauer.}{Uzupełnię godziny i dokładniej opiszę skutki.}
+\turn{A}{Bitte nennen Sie auch die Maßnahmen und wer dafür zuständig ist.}{Proszę podać też działania i kto za nie odpowiada.}
+\turn{B}{Selbstverständlich. Ich schicke Ihnen die neue Version bis morgen.}{Oczywiście. Prześlę nową wersję do jutra.}
+\end{dialog}
+
+\section{Ćwiczenia}
+\begin{cwiczenia}
+\exitem{Napisz zdanie podsumowania incydentu (czas, system, zasięg).}{np.\ \de{Am 12.\ März fiel der Zahlungsdienst von 14:05 bis 14:50 Uhr aus. Betroffen waren alle Kunden.}}
+\exitem{Zapisz przyczynę źródłową w zdaniu z \de{weil}.}{np.\ \de{Die Ursache war ein abgelaufenes Zertifikat, weil die Erneuerung nicht automatisch lief.}}
+\exitem{Zapisz działanie naprawcze w Passiv Präteritum.}{\de{Das Zertifikat wurde erneuert.}}
+\exitem{Zapisz działanie zapobiegawcze z \de{damit}.}{\de{Ein Alarm wurde eingerichtet, damit sich das nicht wiederholt.}}
+\exitem{Nagłówek: „Następne kroki” po niemiecku.}{\de{Nächste Schritte}}
+\exitem{Nagłówek: „Systemy, których dotyczy” po niemiecku.}{\de{Betroffene Systeme}}
+\exitem{Status ADR (zaakceptowany) po niemiecku.}{\de{akzeptiert}}
+\exitem{Popraw mieszanie czasów: \de{Der Server fällt aus und wir haben das gelöst.}}{\de{Der Server fiel aus, und wir lösten das Problem.}}
+\exitem{Przeformułuj bez oceny osoby: \de{Anna hat vergessen, das Zertifikat zu erneuern.}}{\de{Das Zertifikat wurde nicht erneuert, weil keine automatische Erneuerung konfiguriert war.}}
+\exitem{Przetłumacz: „Decyzja zwiększa niezależność usług, ale wymaga większego nakładu operacyjnego.”}{\de{Die Entscheidung erhöht die Entkopplung der Dienste, erfordert aber mehr Betriebsaufwand.}}
+\end{cwiczenia}
+
+\weekend{Napisz po niemiecku postmortem prawdziwego (lub wymyślonego) incydentu na jedną stronę i ADR na pół strony.
+Poproś AI o czytanie jako kierownik nietechniczny i listę niejasności. Popraw na tej podstawie.}

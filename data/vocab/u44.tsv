@@ -1,0 +1,28 @@
+pos	de	pl	note
+n	die Dokumentation, Dokumentationen	dokumentacja	
+n	der Vorfall, Vorfälle	incydent	
+n	die Zeitleiste, Zeitleisten	oś czasu	
+n	die Grundursache, Grundursachen	przyczyna źródłowa	
+n	die Entscheidungsvorlage, Entscheidungsvorlagen	dokument decyzyjny	
+n	der Architekturentscheid, Architekturentscheide	decyzja architektoniczna	ADR
+n	die Konsequenz, Konsequenzen	konsekwencja	
+n	der Status, Status	status	
+n	die Änderung, Änderungen	zmiana	
+n	der Leser, Leser	czytelnik	f. die Leserin
+n	die Gliederung, Gliederungen	struktura (tekstu)	
+v	dokumentieren	dokumentować	
+v	beschreiben	opisywać	
+v	festhalten	zapisywać, utrwalać	hält fest
+v	zusammenfassen	podsumowywać	fasst zusammen
+v	auflisten	wymieniać	
+v	nachvollziehen	zrozumieć, odtworzyć tok rozumowania	
+v	betreffen	dotyczyć	
+v	eintreten	wystąpić	tritt ein
+adj	nachvollziehbar	zrozumiały, możliwy do prześledzenia	
+adj	eindeutig	jednoznaczny	
+adj	vollständig	kompletny	
+adj	präzise	precyzyjny	
+adj	betroffen	dotknięty	
+ph	Zusammenfassung	streszczenie	nagłówek
+ph	Betroffene Systeme	systemy, których dotyczy	nagłówek
+ph	Nächste Schritte	następne kroki	nagłówek

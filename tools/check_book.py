@@ -138,6 +138,17 @@ for p in sources:
         if len(re.findall(r"\\item", cando)) < 3:
             err(f"{rel}: fewer than 3 can-do goals")
 
+# README and the landing page state the plan's size in prose; they must match the data
+vals = dict(re.findall(r"gval@([A-Za-z0-9.]+)\}\{(\d+)\}", values))
+for doc in ("README.md", "docs/index.html"):
+    t = (ROOT / doc).read_text(encoding="utf-8")
+    for n in re.findall(r"(\d+) jednostek", t):
+        if n != vals.get("units.total"):
+            err(f"{doc}: says {n} jednostek, data/units.tsv has {vals.get('units.total')}")
+    for n in re.findall(r"\+ (\d+) tygodni[ea]? buforow", t):
+        if int(n) != int(vals.get("weeks.total", 0)) - int(vals.get("units.total", 0)):
+            err(f"{doc}: says {n} buffer weeks, the plan has {int(vals.get('weeks.total',0)) - int(vals.get('units.total',0))}")
+
 if errs:
     print("\n".join("FAIL " + e for e in errs))
     print(f"\n{len(errs)} problem(s)")

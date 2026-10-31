@@ -1,0 +1,81 @@
+\unitopen{42}
+\begin{candos}
+\item poprowadzić prezentację techniczną z wstępem, strukturą i podsumowaniem;
+\item opisać wykres: trend, wartości, porównanie;
+\item wyjaśnić architekturę systemu po niemiecku;
+\item odpowiadać na pytania z sali i prosić o doprecyzowanie.
+\end{candos}
+
+\section{Słownictwo}
+\vocabtable{42}
+
+\section{Struktura prezentacji}
+\begin{center}\small
+\begin{tabular}{@{}p{0.2\linewidth}p{0.72\linewidth}@{}}
+\toprule
+\textsf{\textbf{Element}} & \textsf{\textbf{Zwroty}}\\
+\midrule
+Powitanie & \de{Guten Morgen zusammen. Schön, dass Sie da sind.}\\
+Cel & \de{Ich möchte Ihnen heute unsere neue Architektur vorstellen.}\\
+Plan & \de{Zuerst gebe ich einen Überblick, dann zeige ich eine Demo, und zum Schluss beantworte ich Fragen.}\\
+Przejście & \de{Kommen wir nun zum zweiten Punkt.} \de{Damit komme ich zu \dots}\\
+Odwołanie do slajdu & \de{Wie Sie auf dieser Folie sehen, \dots}\\
+Podsumowanie & \de{Zusammenfassend lässt sich sagen, dass \dots}\\
+Pytania & \de{Gibt es Fragen?} \de{Das ist eine gute Frage.}\\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\section{Opis wykresu}
+Trend: \de{Die Zahl der Anfragen \textbf{steigt} / \textbf{sinkt} / \textbf{bleibt konstant}.} Skala: \de{um 20 Prozent}, \de{auf 100 Millionen},
+\de{von 50 auf 80}. Porównanie: \de{doppelt so hoch wie}, \de{halb so groß wie}, \de{etwa ein Drittel}. Opis:
+\de{Die Grafik zeigt, dass die Antwortzeit \textbf{um} 40 Prozent \textbf{gesunken ist}, nachdem wir den Cache eingeführt haben.}
+Przyimki: \de{um} (o ile), \de{auf} (do ilu), \de{von \dots{} auf}, \de{bei} (przy wartości), \de{zwischen \dots{} und}.
+
+\begin{zasada}[Architektura po niemiecku]
+Przepływ opisuj kolejnością i Passiv: \de{Zuerst werden die Anfragen vom Gateway entgegengenommen, dann an den passenden Dienst weitergeleitet.}
+Strukturę opisuj rzeczownikami i czasownikami stanu: \de{Das System besteht aus drei Komponenten.} \de{Die Datenbank liegt hinter dem Cache.}
+\end{zasada}
+
+\begin{falle}
+Polacy kalkują „wzrost o 10\%” jako \de{Steigerung von 10\%}; poprawnie \de{Anstieg um 10 Prozent} (\emph{o} ile) i \de{Anstieg auf 10 Prozent}
+(\emph{do} ilu). Błąd: pominięcie przyimka. Drugi: \de{Die Kurve geht hoch} jest potoczne, na slajdzie \de{steigt an}. Trzeci: czytanie
+slajdów słowo w słowo; prezentuj, nie czytaj.
+\end{falle}
+
+\begin{szwajcaria}
+W Szwajcarii prezentacje w firmie bywają krótsze i bardziej rzeczowe niż w Polsce; ceni się konkret i dane. Pytania po prezentacji
+są zadawane uprzejmie i bezpośrednio. Slajdy i dokumentację często robi się po niemiecku, a rozmowę prowadzi po angielsku, jeśli w sali
+są obcokrajowcy; poproś na początku o preferowany język: \de{Sollen wir auf Deutsch oder Englisch fortfahren?}
+\end{szwajcaria}
+
+\begin{praca}
+Demo: \de{Ich zeige Ihnen jetzt eine kurze Demo.} \de{Wie Sie sehen, antwortet der Dienst in unter 200 Millisekunden.} \de{Bei einer
+Last von 1.000 Anfragen pro Sekunde bleibt die Latenz stabil.} \de{Wenn Sie Fragen haben, melden Sie sich bitte jederzeit.}
+\end{praca}
+
+\section{Dialogi}
+\textbf{Dialog 1 --- pytania po prezentacji}
+\begin{dialog}
+\turn{A}{Vielen Dank für die Präsentation. Wie skaliert das System bei einer Verdopplung der Last?}{Dziękuję za prezentację. Jak system skaluje się przy podwojeniu obciążenia?}
+\turn{B}{Gute Frage. Wie die Grafik zeigt, steigt die Latenz nur leicht an, weil die Lastverteilung automatisch funktioniert.}{Dobre pytanie. Jak pokazuje wykres, opóźnienie rośnie tylko nieznacznie, bo rozkład obciążenia działa automatycznie.}
+\turn{A}{Und wie sieht es mit den Kosten aus?}{A jak wygląda sprawa kosztów?}
+\turn{B}{Die Kosten steigen etwa um ein Drittel. Das habe ich auf der letzten Folie zusammengefasst.}{Koszty rosną mniej więcej o jedną trzecią. Podsumowałem to na ostatnim slajdzie.}
+\end{dialog}
+
+\section{Ćwiczenia}
+\begin{cwiczenia}
+\exitem{Rozpocznij prezentację: powitaj i zapowiedz temat (jedno zdanie).}{np.\ \de{Guten Morgen zusammen. Ich möchte Ihnen heute unsere neue Architektur vorstellen.}}
+\exitem{Zapowiedz plan prezentacji w trzech krokach.}{\de{Zuerst gebe ich einen Überblick, dann zeige ich eine Demo, und zum Schluss beantworte ich Fragen.}}
+\exitem{Odwołaj się do slajdu.}{\de{Wie Sie auf dieser Folie sehen, \dots}}
+\exitem{Opisz: wzrost o 20 procent.}{\de{Die Zahl ist um 20 Prozent gestiegen.}}
+\exitem{Opisz: spadek z 80 na 50.}{\de{Der Wert ist von 80 auf 50 gesunken.}}
+\exitem{Opisz: dwukrotnie wyższy niż w zeszłym roku.}{\de{doppelt so hoch wie im letzten Jahr}}
+\exitem{Podsumuj jednym zdaniem (\de{Zusammenfassend}).}{\de{Zusammenfassend lässt sich sagen, dass die Lösung schneller und günstiger ist.}}
+\exitem{Podziękuj za pytanie i zyskaj czas.}{\de{Das ist eine gute Frage.}}
+\exitem{Popraw: \de{Die Zahl ist gestiegen von 10 \%.}}{\de{Die Zahl ist um 10 \% gestiegen.}}
+\exitem{Przetłumacz: „System składa się z trzech komponentów.”}{\de{Das System besteht aus drei Komponenten.}}
+\end{cwiczenia}
+
+\weekend{Przygotuj pięciominutową prezentację architektury swojego projektu (cztery slajdy), wygłoś ją po niemiecku, nagraj i obejrzyj.
+Poproś AI o trzy trudne pytania z sali i odpowiedz na nie ustnie.}

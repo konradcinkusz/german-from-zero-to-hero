@@ -1,1 +1,37 @@
-\chapter{appF-ledgers}
+\chapter{Rejestr stanu książki}
+\markboth{Rejestr stanu książki}{Rejestr stanu książki}
+Wszystkie liczby w tym dodatku są \emph{liczone} z danych i źródeł (\code{tools/gen.py}), nie wpisywane. Ten rejestr istnieje po to, by czytelnik wiedział,
+czego książka jeszcze nie ma.
+
+\section*{Zawartość}
+\begin{center}\small
+\begin{tabular}{@{}lrrrrr@{}}
+\toprule
+ & \textsf{\textbf{A1}} & \textsf{\textbf{A2}} & \textsf{\textbf{B1}} & \textsf{\textbf{B2}} & \textsf{\textbf{razem}}\\
+\midrule
+jednostki & \val{units.A1} & \val{units.A2} & \val{units.B1} & \val{units.B2} & \val{units.total}\\
+napisane jednostki & \val{written.A1} & \val{written.A2} & \val{written.B1} & \val{written.B2} & \val{written.total}\\
+słownictwo (wpisy) & \val{vocab.A1} & \val{vocab.A2} & \val{vocab.B1} & \val{vocab.B2} & \val{vocab.total}\\
+ćwiczenia & \val{exercises.A1} & \val{exercises.A2} & \val{exercises.B1} & \val{exercises.B2} & \val{exercises.total}\\
+dialogi & \val{dialogs.A1} & \val{dialogs.A2} & \val{dialogs.B1} & \val{dialogs.B2} & \val{dialogs.total}\\
+cele can-do & \val{candos.A1} & \val{candos.A2} & \val{candos.B1} & \val{candos.B2} & \val{candos.total}\\
+ramki \emph{Pułapka} & \val{traps.A1} & \val{traps.A2} & \val{traps.B1} & \val{traps.B2} & \val{traps.total}\\
+ramki \emph{Szwajcaria} & \val{swiss.A1} & \val{swiss.A2} & \val{swiss.B1} & \val{swiss.B2} & \val{swiss.total}\\
+ramki \emph{W pracy} & \val{work.A1} & \val{work.A2} & \val{work.B1} & \val{work.B2} & \val{work.total}\\
+\bottomrule
+\end{tabular}
+\end{center}
+
+Rodzaje rzeczowników w słowniku: \artm{der} \val{nouns.der}, \artf{die} \val{nouns.die}, \artn{das} \val{nouns.das}; czasowników \val{vocab.verbs}.
+Tygodni w planie (z buforowymi): \val{weeks.total}.
+
+\section*{Dług, który książka ujawnia}
+\begin{itemize}
+\item \textbf{Weryfikacja przez native speakera: NIE ZOSTAŁA PRZEPROWADZONA.} Niemieckie przykłady, dialogi i klucze odpowiedzi nie były czytane przez
+rodzimego użytkownika języka. To jedyny rejestr, który nie jest licznikiem, tylko deklaracją, i nie może zniknąć po cichu.
+\item \textbf{Fakty wymagające źródła pierwotnego: \val{verify.total}} miejsc oznaczonych \verify{w ten sposób}. Dotyczą prawa pracy, urzędów, podatków i
+formatów egzaminów w Szwajcarii. Każde trzeba sprawdzić u źródła przed decyzją.
+\item \textbf{Słownictwo.} \val{vocab.total} wpisów to rdzeń, nie pełny zasób B2; uzupełniaj z tekstów (Dodatek~E).
+\item \textbf{Brak nagrań audio.} Książka nie zawiera dźwięku. Wymowę ćwicz z DW, SRF i korepetytorem.
+\item \textbf{Czas.} Plan zakłada ok.\ 600 godzin w roku; przy 60 minutach dziennie uzyskasz poziom B1 (Wstęp).
+\end{itemize}
