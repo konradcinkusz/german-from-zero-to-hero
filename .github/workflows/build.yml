@@ -1,0 +1,62 @@
+name: Build
+
+# Source gates first (seconds, no TeX), then the PDF (minutes).
+# Runs on GitHub-hosted runners on purpose: this repository is PUBLIC, and a public
+# repository must never default to a machine we own (docs/RUNNER.md).
+
+on:
+  push:
+    branches: [main]
+    paths-ignore: ['docs/**', '**.md']
+  pull_request:
+    paths-ignore: ['docs/**', '**.md']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: build-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  gates:
+    name: Source gates
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v7
+      - name: Generated files are current (vocabulary, structure, Anki, ledgers)
+        run: python3 tools/gen.py --check
+      - name: Book gates (units, exercises, answers, values, balance)
+        run: python3 tools/check_book.py
+
+  build:
+    name: Compile PDF
+    needs: gates
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Compile with latexmk
+        uses: xu-cheng/latex-action@v4
+        with:
+          root_file: main.tex
+          args: -pdf -interaction=nonstopmode -halt-on-error -file-line-error
+
+      - name: Check the log (errors, unresolved references, overfull boxes)
+        run: python3 tools/check_log.py main.log
+
+      - name: Name the artefact
+        run: mv main.pdf "${{ vars.PDF_NAME || 'Deutsch-von-Null-bis-B2' }}.pdf"
+
+      - uses: actions/upload-artifact@v7
+        with:
+          name: book-pdf
+          path: ${{ vars.PDF_NAME || 'Deutsch-von-Null-bis-B2' }}.pdf
+          retention-days: 14
+
+      - name: Report outstanding work
+        if: always()
+        run: python3 tools/debt.py >> "$GITHUB_STEP_SUMMARY"

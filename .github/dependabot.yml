@@ -1,0 +1,10 @@
+version: 2
+updates:
+  # Keep the pinned action versions current. Without this, workflows silently
+  # rot until an action major version is deprecated.
+  - package-ecosystem: github-actions
+    directory: "/"
+    schedule:
+      interval: monthly
+    commit-message:
+      prefix: "ci"

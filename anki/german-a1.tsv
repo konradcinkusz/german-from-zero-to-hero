@@ -1,0 +1,180 @@
+#separator:tab
+#html:false
+#notetype:Basic (and reversed card)
+#deck:Deutsch::A1
+#tags column:4
+der Abend, Abende	wieczór		A1 u01 n
+aber	ale		A1 u02 conj
+acht	osiem (8)		A1 u03 num
+achtzig	osiemdziesiąt (80)		A1 u03 num
+die Adresse, Adressen	adres		A1 u03 n
+das Alter	wiek (bez liczby mnogiej)		A1 u03 n
+antworten	odpowiadać		A1 u03 v
+die Anwendung, Anwendungen	aplikacja		A1 u04 n
+arbeiten	pracować (du arbeitest)		A1 u02 v
+der Artikel, Artikel	rodzajnik; artykuł		A1 u04 n
+auch	też		A1 u02 adv
+Auf Wiedersehen	Do widzenia (formalnie)		A1 u01 ph
+das Auto, Autos	samochód		A1 u04 n
+der Beruf, Berufe	zawód		A1 u02 n
+das Bild, Bilder	obraz, obrazek		A1 u04 n
+der Bildschirm, Bildschirme	ekran		A1 u04 n
+der Bindestrich, Bindestriche	myślnik, łącznik		A1 u03 n
+Bis bald	Do zobaczenia wkrótce		A1 u01 ph
+Bis morgen	Do jutra		A1 u01 ph
+Bitte	Proszę (i „nie ma za co”)		A1 u01 ph
+Bitte schön	Proszę bardzo		A1 u01 ph
+brauchen	potrzebować		A1 u03 v
+das Buch, Bücher	książka		A1 u04 n
+buchstabieren	literować		A1 u03 v
+das Büro, Büros	biuro		A1 u04 n
+der Chef, Chefs	szef (f. die Chefin)		A1 u04 n
+der Code	kod (bez liczby mnogiej w znaczeniu źródła)		A1 u04 n
+der Computer, Computer	komputer		A1 u04 n
+Danke	Dziękuję		A1 u01 ph
+Danke schön	Dziękuję bardzo		A1 u01 ph
+Das ist ein Computer.	To jest komputer.		A1 u04 ph
+Das ist eine Datei.	To jest plik.		A1 u04 ph
+Das ist richtig.	To jest poprawne.		A1 u03 ph
+die Datei, Dateien	plik		A1 u04 n
+die Datenbank, Datenbanken	baza danych		A1 u04 n
+Deutsch	język niemiecki, niemiecki		A1 u02 other
+Deutschland	Niemcy (bez rodzajnika)		A1 u02 other
+drei	trzy (3)		A1 u03 num
+dreißig	trzydzieści (30; CH: dreissig)		A1 u03 num
+der Drucker, Drucker	drukarka		A1 u04 n
+du	ty (nieformalnie)		A1 u02 pron
+die E-Mail, E-Mails	e-mail (też: die E-Mail-Adresse)		A1 u03 n
+ein bisschen	trochę		A1 u02 ph
+eins	jeden (1; przed rzeczownikiem ein, eine)		A1 u03 num
+die Einzahl	liczba pojedyncza (też: der Singular)		A1 u04 n
+elf	jedenaście (11)		A1 u03 num
+Englisch	język angielski		A1 u02 other
+Entschuldigung	Przepraszam (zwrócenie uwagi)		A1 u01 ph
+der Entwickler, Entwickler	programista (f. die Entwicklerin)		A1 u02 n
+er	on		A1 u02 pron
+es	ono		A1 u02 pron
+Es tut mir leid	Przykro mi (przeprosiny)		A1 u01 ph
+falsch	błędny		A1 u03 adj
+der Fehler, Fehler	błąd		A1 u04 n
+das Fenster, Fenster	okno		A1 u04 n
+die Firma, Firmen	firma		A1 u02 n
+das Formular, Formulare	formularz		A1 u03 n
+fragen	pytać		A1 u03 v
+Freut mich	Miło mi		A1 u01 ph
+fünf	pięć (5)		A1 u03 num
+fünfzig	pięćdziesiąt (50)		A1 u03 num
+das Geschlecht, Geschlechter	rodzaj (gramatyczny); płeć		A1 u04 n
+Grüezi	Dzień dobry (CH) (dialekt; w sklepie i biurze)		A1 u01 ph
+Gut, danke	Dobrze, dziękuję		A1 u01 ph
+Gute Besserung	Szybkiego powrotu do zdrowia		A1 u01 ph
+Gute Nacht	Dobranoc (tylko na pożegnanie przed snem)		A1 u01 ph
+Guten Abend	Dobry wieczór		A1 u01 ph
+Guten Morgen	Dzień dobry (rano) (do ok. 10–11)		A1 u01 ph
+Guten Tag	Dzień dobry (formalnie, cały dzień)		A1 u01 ph
+Hallo	Cześć (nieformalnie)		A1 u01 ph
+das Handy, Handys	telefon komórkowy (CH też: das Natel (przestarz.), das Mobiltelefon)		A1 u03 n
+heißen	nazywać się (ich heiße, du heißt)		A1 u02 v
+Herzlich willkommen	Serdecznie witamy		A1 u01 ph
+hören	słyszeć, słuchać		A1 u03 v
+hundert	sto (100)		A1 u03 num
+ich	ja		A1 u02 pron
+Ich bin dreißig Jahre alt.	Mam trzydzieści lat.		A1 u03 ph
+Ich verstehe nicht.	Nie rozumiem.		A1 u02 ph
+ihr	wy		A1 u02 pron
+der Ingenieur, Ingenieure	inżynier (f. die Ingenieurin)		A1 u02 n
+ja	tak		A1 u01 adv
+das Jahr, Jahre	rok		A1 u03 n
+das Kabel, Kabel	kabel		A1 u04 n
+der Kollege, Kollegen	kolega z pracy (f. die Kollegin)		A1 u02 n
+kommen	przychodzić; pochodzić (ich komme aus …)		A1 u02 v
+das Land, Länder	kraj		A1 u02 n
+Langsamer, bitte.	Wolniej, proszę.		A1 u02 ph
+der Laptop, Laptops	laptop		A1 u04 n
+lernen	uczyć się		A1 u02 v
+machen	robić		A1 u03 v
+die Maus, Mäuse	mysz		A1 u04 n
+die Mehrzahl	liczba mnoga (też: der Plural)		A1 u04 n
+Merci	Dziękuję (CH) (też w DE/CH potocznie)		A1 u01 ph
+der Morgen, Morgen	ranek		A1 u01 n
+der Nachname, Nachnamen	nazwisko		A1 u02 n
+die Nacht, Nächte	noc		A1 u01 n
+der Name, Namen	nazwa; imię		A1 u02 n
+nein	nie		A1 u01 adv
+das Netzwerk, Netzwerke	sieć		A1 u04 n
+neun	dziewięć (9)		A1 u03 num
+neunzig	dziewięćdziesiąt (90)		A1 u03 num
+Noch einmal, bitte.	Jeszcze raz, proszę.		A1 u02 ph
+null	zero (0)		A1 u03 num
+die Nummer, Nummern	numer		A1 u03 n
+oder	albo, czy		A1 u02 conj
+der Ordner, Ordner	folder		A1 u04 n
+Österreich	Austria (bez rodzajnika)		A1 u02 other
+das Passwort, Passwörter	hasło		A1 u04 n
+Polen	Polska (bez rodzajnika)		A1 u02 other
+Polnisch	język polski (bez rodzajnika)		A1 u02 other
+die Postleitzahl, Postleitzahlen	kod pocztowy (PLZ)		A1 u03 n
+das Programm, Programme	program		A1 u04 n
+Prost	Na zdrowie (toast)		A1 u01 ph
+der Punkt, Punkte	kropka; punkt (w adresie e-mail)		A1 u03 n
+rechnen	liczyć		A1 u03 v
+richtig	poprawny		A1 u03 adj
+die Schnittstelle, Schnittstellen	interfejs, API		A1 u04 n
+schreiben	pisać		A1 u03 v
+die Schweiz	Szwajcaria (z rodzajnikiem; CH)		A1 u02 n
+sechs	sześć (6)		A1 u03 num
+sechzig	sześćdziesiąt (60)		A1 u03 num
+sehr	bardzo		A1 u02 adv
+sein	być (ich bin, du bist, er ist)		A1 u02 v
+der Server, Server	serwer		A1 u04 n
+sie	ona; oni, one (Sie (wielką) = Pan/Pani/Państwo)		A1 u02 pron
+sieben	siedem (7)		A1 u03 num
+siebzig	siedemdziesiąt (70)		A1 u03 num
+die Software	oprogramowanie (bez liczby mnogiej)		A1 u04 n
+die Sprache, Sprachen	język		A1 u02 n
+sprechen	mówić (du sprichst (nieregularny))		A1 u02 v
+die Stadt, Städte	miasto		A1 u02 n
+die Straße, Straßen	ulica (CH: Strasse)		A1 u03 n
+studieren	studiować		A1 u02 v
+der Stuhl, Stühle	krzesło		A1 u04 n
+der Tag, Tage	dzień		A1 u01 n
+die Tasche, Taschen	torba		A1 u04 n
+die Tastatur, Tastaturen	klawiatura		A1 u04 n
+tausend	tysiąc (1000)		A1 u03 num
+das Team, Teams	zespół		A1 u04 n
+die Telefonnummer, Telefonnummern	numer telefonu		A1 u03 n
+der Tisch, Tische	stół		A1 u04 n
+Tschüss	Cześć, na razie (nieformalnie)		A1 u01 ph
+die Tür, Türen	drzwi		A1 u04 n
+Uf Wiederluege	Do widzenia (CH) (dialekt, rozumieć)		A1 u01 ph
+und	i		A1 u02 conj
+Und dir?	A tobie? (nieformalnie)		A1 u01 ph
+Und Ihnen?	A Panu / Pani? (formalnie)		A1 u01 ph
+der Unterstrich, Unterstriche	podkreślnik		A1 u03 n
+verstehen	rozumieć		A1 u02 v
+Viel Erfolg	Powodzenia		A1 u01 ph
+vielleicht	może		A1 u01 adv
+vier	cztery (4)		A1 u03 num
+vierzig	czterdzieści (40)		A1 u03 num
+der Vorname, Vornamen	imię		A1 u02 n
+was	co		A1 u02 pron
+Was ist das?	Co to jest?		A1 u04 ph
+Was sind Sie von Beruf?	Czym się Pan/Pani zajmuje?		A1 u02 ph
+wer	kto		A1 u02 pron
+wie	jak		A1 u02 pron
+Wie alt bist du?	Ile masz lat?		A1 u03 ph
+Wie geht's?	Jak się masz? (nieformalnie)		A1 u01 ph
+Wie heißen Sie?	Jak się Pan/Pani nazywa?		A1 u02 ph
+Wie ist Ihre Telefonnummer?	Jaki jest Pana/Pani numer telefonu?		A1 u03 ph
+Wie schreibt man das?	Jak to się pisze?		A1 u03 ph
+wir	my		A1 u02 pron
+wo	gdzie		A1 u02 pron
+woher	skąd		A1 u02 pron
+Woher kommen Sie?	Skąd Pan/Pani pochodzi?		A1 u02 ph
+wohnen	mieszkać (ich wohne in …)		A1 u02 v
+das Wort, Wörter	słowo		A1 u01 n
+die Zahl, Zahlen	liczba		A1 u03 n
+zehn	dziesięć (10)		A1 u03 num
+zwanzig	dwadzieścia (20)		A1 u03 num
+zwei	dwa (2; przez telefon często „zwo”)		A1 u03 num
+zwölf	dwanaście (12)		A1 u03 num

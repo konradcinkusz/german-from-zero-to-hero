@@ -1,0 +1,58 @@
+# LaTeX build artefacts
+# NOTE: gitignore does NOT support trailing comments on a pattern line.
+# Every comment here is on its own line for that reason.
+
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.lol
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.xdv
+
+# Index
+*.idx
+*.ilg
+*.ind
+*.ist
+
+# Bibliography
+*.bbl
+*.blg
+*.run.xml
+*-blx.aux
+
+# Beamer
+*.nav
+*.snm
+*.vrb
+
+# Built PDF. Released via GitHub Releases, not committed.
+main.pdf
+Deutsch-von-Null-bis-B2*.pdf
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Backup files. Escaped where needed; no trailing comments.
+*~
+\#*\#
+
+# Local scratch
+build/
+out/
+scratch/
+
+# Python
+__pycache__/
+*.pyc
+
+# Local secrets (none are needed to build this repository)
+.env

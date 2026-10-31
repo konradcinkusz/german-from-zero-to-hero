@@ -1,0 +1,11 @@
+name: Content request
+description: A topic, word list or exercise type the book should cover.
+title: "[content] "
+labels: ["content"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What is missing, and for which level (A1, A2, B1, B2)?
+    validations:
+      required: true

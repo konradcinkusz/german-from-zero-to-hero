@@ -1,0 +1,16 @@
+# gitleaks configuration -- german-from-zero-to-hero
+#
+# Runs in two places, deliberately (REPO-BASELINE.md section 2):
+#   - pre-commit hook (scripts/hooks/pre-commit): catches the mistake before it is history;
+#   - CI job (.github/workflows/secret-scan.yml): catches contributors without hooks.
+#
+# This repository is PUBLIC and has no secrets by design: it ships prose, vocabulary
+# data and a stdlib-only generator, and nothing in the build needs a credential. The
+# upstream rule set is therefore enough; it is here to catch a credential that has no
+# business being in this repository at all.
+#
+# If one ever lands: ROTATE FIRST, clean history second.
+title = "german-from-zero-to-hero secret scanning"
+
+[extend]
+useDefault = true

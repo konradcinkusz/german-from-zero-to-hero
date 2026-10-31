@@ -1,0 +1,49 @@
+n	level	slug	de	pl	grammar
+1	A1	laute	Laute und Begrüßungen	Dźwięki i powitania	alfabet, wymowa, Sie/du
+2	A1	vorstellung	Sich vorstellen	Przedstawianie się	sein, zaimki osobowe, pytania W-
+3	A1	zahlen	Zahlen und Kontaktdaten	Liczby i dane kontaktowe	czasowniki regularne, liczebniki 0-100
+4	A1	nomen	Nomen und Artikel	Rzeczowniki i rodzajniki	rodzaj, liczba mnoga, ein/eine
+5	A1	haben	Haben, Akkusativ und Verneinung	Haben, biernik i przeczenie	haben, Akkusativ, kein/nicht
+6	A1	familie	Familie und Berufe	Rodzina i zawody	przymiotniki dzierżawcze
+7	A1	zeit	Zeit und Termine	Czas i terminy	godziny, dni, miesiące, daty
+8	A1	essen	Essen und Trinken	Jedzenie i picie	möchte, restauracja, ceny
+9	A1	einkaufen	Einkaufen und Mengen	Zakupy i ilości	czasowniki nieregularne (a→ä, e→i)
+10	A1	wohnen	Wohnen und Orte	Mieszkanie i miejsca	przyimki in/auf/an, Wo? Wohin?
+11	A1	modalverben	Modalverben	Czasowniki modalne	können, müssen, wollen, dürfen, Satzklammer
+12	A1	tagesablauf	Tagesablauf und Imperativ	Plan dnia i tryb rozkazujący	czasowniki rozdzielnie złożone, Imperativ
+13	A2	stadt	Stadt und Verkehr	Miasto i komunikacja	Dativ, przyimki z celownikiem, droga
+14	A2	dativ	Dativ und Personalpronomen	Celownik i zaimki osobowe	mir/dir/ihm, czasowniki z Dativ
+15	A2	perfekt1	Perfekt mit haben	Perfekt z haben	Partizip II regularny
+16	A2	perfekt2	Perfekt mit sein, unregelmäßige Verben	Perfekt z sein, czasowniki nieregularne	Partizip II nieregularny
+17	A2	praeteritum	Präteritum von sein, haben, Modalverben	Präteritum: sein, haben, modalne	Präteritum, zdrowie
+18	A2	nebensaetze1	Nebensätze mit weil, dass, wenn, ob	Zdania podrzędne: weil, dass, wenn, ob	szyk w zdaniu podrzędnym
+19	A2	vergleich	Vergleiche und Wetter	Porównania i pogoda	Komparativ, Superlativ
+20	A2	reflexiv	Reflexive Verben und Freizeit	Czasowniki zwrotne i czas wolny	sich + Akkusativ/Dativ
+21	A2	adjektive1	Adjektive beschreiben	Opisujemy przymiotnikami	deklinacja przymiotników I
+22	A2	buero	Büro, E-Mail und Telefon	Biuro, e-mail i telefon	korespondencja, grzeczność
+23	A2	hoeflich	Pläne und höfliche Bitten	Plany i grzeczne prośby	Futur I, würde/könnte/hätte gern
+24	A2	a2-abschluss	A2 Abschluss und Lebenslauf	Podsumowanie A2 i CV	powtórka, życiorys
+25	B1	nebensaetze2	Nebensätze mit obwohl, damit, um … zu	Zdania podrzędne: obwohl, damit, um … zu	als/wenn, bevor/nachdem
+26	B1	relativsaetze	Relativsätze	Zdania względne	zaimki względne
+27	B1	adjektive2	Adjektivdeklination und Genitiv	Deklinacja przymiotników i dopełniacz	Genitiv, deklinacja II
+28	B1	passiv	Passiv	Strona bierna	Passiv Präsens/Präteritum
+29	B1	konjunktiv2	Konjunktiv II	Konjunktiv II	życzenia, warunki nierealne
+30	B1	praeteritum2	Präteritum und Erzählen	Präteritum i opowiadanie	czasowniki w Präteritum, teksty
+31	B1	praepositionen	Verben mit Präpositionen	Czasowniki z przyimkami	da(r)-/wo(r)-
+32	B1	meinung	Meinung und Argumentation	Opinia i argumentacja	łączniki (deshalb, trotzdem)
+33	B1	bewerbung	Bewerbung und Vorstellungsgespräch	Podanie o pracę i rozmowa kwalifikacyjna	list motywacyjny
+34	B1	it-alltag	Arbeitsalltag in der IT	Codzienna praca w IT	Stand-up, code review, błędy
+35	B1	schweiz	Alltag in der Schweiz	Codzienność w Szwajcarii	urzędy, ubezpieczenie, dialekt
+36	B1	b1-abschluss	B1 Abschluss	Podsumowanie B1	egzamin B1
+37	B2	nominalstil	Nominalstil	Styl nominalny	nominalizacja, Funktionsverbgefüge
+38	B2	partizipien	Partizipialattribute	Konstrukcje imiesłowowe	erweiterte Attribute
+39	B2	konjunktiv1	Konjunktiv I und indirekte Rede	Konjunktiv I i mowa zależna	referowanie
+40	B2	passiv2	Erweitertes Passiv	Rozszerzona strona bierna	Passiv + modalne, Zustandspassiv
+41	B2	konnektoren	Konnektoren und Argumentation	Spójniki i argumentacja	zwar … aber, je … desto, indem, sodass
+42	B2	praesentation	Meetings und Präsentationen	Spotkania i prezentacje	opis wykresów, architektura
+43	B2	vertrag	Verhandlung und Arbeitsvertrag	Negocjacje i umowa o pracę	umowa, wynagrodzenie
+44	B2	dokumentation	Technische Dokumentation und Incident Reports	Dokumentacja i raporty incydentów	rejestr formalny
+45	B2	gespraech	Gespräche, Small Talk und Konflikte	Rozmowy, small talk i konflikty	rejestr, Schweizer Kultur
+46	B2	feinheiten	Idiomatik, Partikeln, Wortbildung	Idiomy, partykuły, słowotwórstwo	doch, mal, eben, ja
+47	B2	hoeren-lesen	Hören und Lesen intensiv	Intensywne słuchanie i czytanie	strategie egzaminacyjne
+48	B2	b2-abschluss	B2 Abschluss	Podsumowanie B2	egzamin B2
