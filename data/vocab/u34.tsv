@@ -1,0 +1,34 @@
+pos	de	pl	note
+n	das Daily, Dailys	codzienne spotkanie zespołu	też: das Stand-up
+n	das Sprint Planning	planowanie sprintu	
+n	die Retrospektive, Retrospektiven	retrospektywa	
+n	der Sprint, Sprints	sprint	
+n	das Backlog, Backlogs	backlog	
+n	das Ticket, Tickets	zgłoszenie	
+n	der Bug, Bugs	błąd	też: der Fehler
+n	der Pull Request, Pull Requests	pull request	
+n	das Review, Reviews	przegląd kodu	
+n	die Pipeline, Pipelines	pipeline	
+n	das Deployment, Deployments	wdrożenie	
+n	der Ausfall, Ausfälle	awaria	
+n	die Störung, Störungen	zakłócenie, incydent	
+n	die Ursache, Ursachen	przyczyna	
+n	die Behebung, Behebungen	usunięcie (błędu)	
+n	der Zugriff, Zugriffe	dostęp	
+n	die Berechtigung, Berechtigungen	uprawnienie	
+n	die Abhängigkeit, Abhängigkeiten	zależność	
+n	der Entwurf, Entwürfe	szkic, projekt	
+v	blockieren	blokować	ich bin blockiert
+v	mergen	scalać (kod)	hat gemergt
+v	deployen	wdrażać	hat deployt
+v	reviewen	robić przegląd	
+v	debuggen	debugować	
+v	committen	zatwierdzać zmiany	
+v	umsetzen	zrealizować	setzt um
+v	schätzen	szacować	
+ph	Gestern habe ich …	Wczoraj zrobiłem …	standup
+ph	Heute arbeite ich an …	Dziś pracuję nad …	
+ph	Ich bin blockiert, weil …	Jestem zablokowany, bo …	
+ph	Ich brauche Hilfe bei …	Potrzebuję pomocy przy …	
+ph	Das ist erledigt.	To jest załatwione.	
+n	die Version, Versionen	wersja	
