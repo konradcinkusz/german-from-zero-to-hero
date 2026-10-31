@@ -1,0 +1,31 @@
+pos	de	pl	note
+n	der Betreff	temat (wiadomości)	bez liczby mnogiej
+n	der Anhang, Anhänge	załącznik	
+n	die Anrede, Anreden	zwrot grzecznościowy	
+n	der Gruß, Grüße	pozdrowienie	
+n	die Nachricht, Nachrichten	wiadomość	
+n	der Anruf, Anrufe	telefon, rozmowa	
+n	die Besprechung, Besprechungen	narada	CH: die Sitzung
+n	das Protokoll, Protokolle	protokół	
+n	die Rückmeldung, Rückmeldungen	odpowiedź zwrotna	
+n	die Frist, Fristen	termin (ostateczny)	
+n	der Vorschlag, Vorschläge	propozycja	
+n	die Mitteilung, Mitteilungen	komunikat	
+v	verschieben	przesuwać	hat verschoben
+v	bestätigen	potwierdzać	
+v	weiterleiten	przekazywać dalej	
+v	erreichen	osiągać; dodzwonić się	
+v	verbinden	łączyć	
+v	vereinbaren	uzgadniać	
+v	ausrichten	przekazać wiadomość	
+v	mitteilen	zawiadamiać	
+adj	dringend	pilny	
+adj	verfügbar	dostępny	
+ph	Sehr geehrte Frau Keller,	Szanowna Pani Keller,	
+ph	Sehr geehrter Herr Nowak,	Szanowny Panie Nowak,	
+ph	Liebe Anna,	Droga Anno,	
+ph	Mit freundlichen Grüßen	Z poważaniem	DE; CH: Freundliche Grüsse
+ph	Hier spricht Piotr Nowak.	Mówi Piotr Nowak.	
+ph	Kann ich bitte Herrn Keller sprechen?	Czy mogę rozmawiać z panem Kellerem?	
+ph	Ich verbinde Sie.	Łączę Pana/Panią.	
+ph	Können Sie bitte später anrufen?	Czy może Pan/Pani zadzwonić później?	
