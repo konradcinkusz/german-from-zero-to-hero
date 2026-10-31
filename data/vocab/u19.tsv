@@ -1,0 +1,31 @@
+pos	de	pl	note
+n	das Wetter	pogoda	bez liczby mnogiej
+n	die Sonne, Sonnen	słońce	
+n	der Regen	deszcz	
+n	der Schnee	śnieg	
+n	der Wind, Winde	wiatr	
+n	die Wolke, Wolken	chmura	
+n	die Temperatur, Temperaturen	temperatura	
+n	der Grad, Grade	stopień	
+n	der Frühling, Frühlinge	wiosna	
+n	der Sommer, Sommer	lato	
+n	der Herbst, Herbste	jesień	
+n	der Winter, Winter	zima	
+n	das Gewitter, Gewitter	burza	
+adj	warm	ciepły	wärmer, am wärmsten
+adj	kühl	chłodny	
+adj	sonnig	słoneczny	
+adj	regnerisch	deszczowy	
+adj	windig	wietrzny	
+adj	nass	mokry	
+adj	trocken	suchy	
+adj	hoch	wysoki	höher, am höchsten
+adj	besser	lepszy	od gut: besser, am besten
+adj	mehr	więcej	od viel: mehr, am meisten
+adv	lieber	chętniej	od gern: lieber, am liebsten
+conj	als	niż	po komparatywie
+v	regnen	padać (deszcz)	es regnet
+v	schneien	padać (śnieg)	es schneit
+ph	Wie ist das Wetter?	Jaka jest pogoda?	
+ph	Es ist sonnig.	Jest słonecznie.	
+ph	Es regnet.	Pada deszcz.	

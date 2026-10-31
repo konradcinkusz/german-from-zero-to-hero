@@ -1,0 +1,61 @@
+name: Pages
+
+# Publishes the landing page and the current PDF.
+# One-time repository setting (no API or workflow permission can do it):
+#   Settings -> Pages -> Build and deployment -> Source: "GitHub Actions".
+# Without it configure-pages fails with "Create Pages site failed".
+
+on:
+  push:
+    branches: [main]
+    paths-ignore: ['**.md']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    name: Assemble the site
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v7
+      - name: Source gates
+        run: |
+          python3 tools/gen.py --check
+          python3 tools/check_book.py
+      - uses: xu-cheng/latex-action@v4
+        with:
+          root_file: main.tex
+          args: -pdf -interaction=nonstopmode -halt-on-error -file-line-error
+      - run: python3 tools/check_log.py main.log
+      - name: Assemble _site (the page, the PDF and the Anki decks only)
+        run: |
+          mkdir -p _site/anki
+          cp docs/index.html _site/
+          cp main.pdf _site/Deutsch-von-Null-bis-B2.pdf
+          cp anki/german-*.tsv _site/anki/
+      - uses: actions/configure-pages@v6
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: _site
+
+  deploy:
+    name: Deploy
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v5

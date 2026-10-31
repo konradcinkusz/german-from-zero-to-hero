@@ -1,0 +1,76 @@
+\unitopen{34}
+\begin{candos}
+\item zreferować w standupie, co zrobiłeś, co robisz i co Cię blokuje;
+\item opisać błąd, jego przyczynę i usunięcie w Perfekcie i Passiv;
+\item poprosić o review, zgłosić problem i ustalić termin;
+\item przeczytać i napisać krótki opis pull requestu po niemiecku.
+\end{candos}
+
+\section{Słownictwo}
+\vocabtable{34}
+
+\section{Standup po niemiecku}
+Trzy pytania: \de{Was habe ich gestern gemacht?} \de{Was mache ich heute?} \de{Was blockiert mich?} Wzór:
+\de{Gestern habe ich den Bug im Login gefunden und behoben. Heute arbeite ich an der API für die Rechnungen. Ich bin blockiert,
+weil mir der Zugriff auf die Datenbank fehlt.} Czasowniki angielskie dostają niemieckie końcówki: \de{mergen} (\de{gemergt}),
+\de{deployen} (\de{deployt}), \de{committen} (\de{committet}), \de{reviewen} (\de{reviewt}). Dla pisania formalnego użyj \de{zusammenführen}
+zamiast \de{mergen}, ale w zespole \de{mergen} jest normą.
+
+\section{Opis błędu i incydentu}
+\begin{center}\small
+\begin{tabular}{@{}p{0.2\linewidth}p{0.72\linewidth}@{}}
+\toprule
+\textsf{\textbf{Element}} & \textsf{\textbf{Zdanie}}\\
+\midrule
+Objaw & \de{Die Anwendung stürzt beim Login ab.}\\
+Zasięg & \de{Das Problem betrifft alle Benutzer in Europa.}\\
+Przyczyna & \de{Die Ursache ist ein abgelaufenes Zertifikat.}\\
+Działanie & \de{Wir haben das Zertifikat erneuert und den Dienst neu gestartet.}\\
+Zapobieganie & \de{Damit das nicht wieder passiert, richten wir einen Alarm ein.}\\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\begin{falle}
+Polska skłonność do łączenia terminów angielskich z polskimi końcówkami („zmergowałem”) ma niemiecki odpowiednik, ale z regułami:
+\de{gemergt}, \de{deployt}; \emph{nie} \de{gemerged}. Drugi błąd: używanie \de{Bug} bez rodzajnika; rodzajnik jest męski: \de{der Bug}.
+Trzeci: tłumaczenie „zgłosić” jako \de{zeigen}: \de{Ich habe den Bug gemeldet} (zgłosiłem), nie \de{gezeigt}.
+\end{falle}
+
+\begin{szwajcaria}
+W szwajcarskich zespołach IT rozmawia się często po angielsku, ale język oficjalny to niemiecki, zwłaszcza w komunikacji z
+klientem i dokumentacji. Termin \de{Sitzung} bywa używany zamiast \de{Meeting}. W Zurychu powszechne są firmy międzynarodowe,
+w których język zespołu to angielski; niemiecki pomoże Ci jednak w integracji i w kontakcie z biznesem.
+\end{szwajcaria}
+
+\begin{praca}
+Opis PR: \de{Dieser Pull Request führt einen Cache für die Abfrage der Kundendaten ein. Die Änderung reduziert die Antwortzeit
+um etwa 40 Prozent. Bitte prüft besonders die Invalidierung des Caches.} Prośba: \de{Könnte jemand bis Mittwoch reviewen?}
+\end{praca}
+
+\section{Dialogi}
+\textbf{Dialog 1 --- Daily}
+\begin{dialog}
+\turn{A}{Guten Morgen zusammen. Wer beginnt?}{Dzień dobry wszystkim. Kto zaczyna?}
+\turn{B}{Ich. Gestern habe ich den Bug im Login behoben und einen Pull Request erstellt. Heute reviewe ich den Code von Anna.}{Ja. Wczoraj usunąłem błąd w logowaniu i utworzyłem pull request. Dziś robię review kodu Anny.}
+\turn{C}{Ich arbeite heute an der Schnittstelle. Ich bin blockiert, weil ich keinen Zugriff auf die Testumgebung habe.}{Dziś pracuję nad interfejsem. Jestem zablokowany, bo nie mam dostępu do środowiska testowego.}
+\turn{A}{Darum kümmere ich mich. Ich schicke dir die Berechtigung bis zehn Uhr.}{Zajmę się tym. Wyślę ci uprawnienie do dziesiątej.}
+\end{dialog}
+
+\section{Ćwiczenia}
+\begin{cwiczenia}
+\exitem{Powiedz, że wczoraj naprawiłeś błąd (Perfekt).}{\de{Gestern habe ich den Bug behoben.}}
+\exitem{Powiedz, że dziś pracujesz nad API.}{\de{Heute arbeite ich an der API.}}
+\exitem{Powiedz, że jesteś zablokowany z powodu braku dostępu.}{\de{Ich bin blockiert, weil mir der Zugriff fehlt.}}
+\exitem{Partizip II: \de{deployen}.}{\de{deployt}}
+\exitem{Partizip II: \de{mergen}.}{\de{gemergt}}
+\exitem{Passiv Präteritum: \de{Man erneuerte das Zertifikat.}}{\de{Das Zertifikat wurde erneuert.}}
+\exitem{Podaj przyczynę awarii (zdanie z \de{Die Ursache ist \dots}).}{np.\ \de{Die Ursache ist ein abgelaufenes Zertifikat.}}
+\exitem{Poproś o review do środy.}{\de{Könnte jemand bis Mittwoch reviewen?}}
+\exitem{Popraw: \de{Ich habe den Bug gezeigt.} (chodzi o zgłoszenie)}{\de{Ich habe den Bug gemeldet.}}
+\exitem{Przetłumacz: „Potrzebuję pomocy przy konfiguracji.”}{\de{Ich brauche Hilfe bei der Konfiguration.}}
+\exitem{Przetłumacz: „To zostało załatwione.”}{\de{Das ist erledigt.}}
+\end{cwiczenia}
+
+\weekend{Napisz niemiecki opis jednego prawdziwego PR lub incydentu (objaw, zasięg, przyczyna, działanie, zapobieganie)
+w dziesięciu zdaniach i wygłoś trzyminutowy standup po niemiecku. Nagraj i sprawdź czasy.}

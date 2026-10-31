@@ -1,0 +1,30 @@
+name: Erratum
+description: A German form, translation, rule or exercise answer is wrong.
+title: "[erratum] "
+labels: ["erratum"]
+body:
+  - type: input
+    id: location
+    attributes:
+      label: Where
+      placeholder: "Tydzień 12, ćwiczenie 7 / data/vocab/u12.tsv"
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Kind
+      options:
+        - Wrong German (grammar, spelling, word choice)
+        - Wrong or unnatural Polish translation
+        - Wrong answer in the key
+        - Swiss fact out of date or incorrect
+        - Typo or layout
+    validations:
+      required: true
+  - type: textarea
+    id: detail
+    attributes:
+      label: What the book says, and what is correct (with a source if you have one)
+    validations:
+      required: true

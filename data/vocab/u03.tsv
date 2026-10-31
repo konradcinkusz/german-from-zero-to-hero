@@ -1,0 +1,53 @@
+pos	de	pl	note
+num	null	zero	0
+num	eins	jeden	1; przed rzeczownikiem ein, eine
+num	zwei	dwa	2; przez telefon często „zwo”
+num	drei	trzy	3
+num	vier	cztery	4
+num	fünf	pięć	5
+num	sechs	sześć	6
+num	sieben	siedem	7
+num	acht	osiem	8
+num	neun	dziewięć	9
+num	zehn	dziesięć	10
+num	elf	jedenaście	11
+num	zwölf	dwanaście	12
+num	zwanzig	dwadzieścia	20
+num	dreißig	trzydzieści	30; CH: dreissig
+num	vierzig	czterdzieści	40
+num	fünfzig	pięćdziesiąt	50
+num	sechzig	sześćdziesiąt	60
+num	siebzig	siedemdziesiąt	70
+num	achtzig	osiemdziesiąt	80
+num	neunzig	dziewięćdziesiąt	90
+num	hundert	sto	100
+num	tausend	tysiąc	1000
+n	die Zahl, Zahlen	liczba	
+n	das Alter	wiek	bez liczby mnogiej
+n	das Jahr, Jahre	rok	
+n	die Nummer, Nummern	numer	
+n	die Telefonnummer, Telefonnummern	numer telefonu	
+n	die E-Mail, E-Mails	e-mail	też: die E-Mail-Adresse
+n	die Adresse, Adressen	adres	
+n	die Straße, Straßen	ulica	CH: Strasse
+n	die Postleitzahl, Postleitzahlen	kod pocztowy	PLZ
+n	das Handy, Handys	telefon komórkowy	CH też: das Natel (przestarz.), das Mobiltelefon
+n	das Formular, Formulare	formularz	
+n	der Punkt, Punkte	kropka; punkt	w adresie e-mail
+n	der Bindestrich, Bindestriche	myślnik, łącznik	
+n	der Unterstrich, Unterstriche	podkreślnik	
+v	buchstabieren	literować	
+v	schreiben	pisać	
+v	brauchen	potrzebować	
+v	machen	robić	
+v	fragen	pytać	
+v	antworten	odpowiadać	
+v	hören	słyszeć, słuchać	
+v	rechnen	liczyć	
+adj	richtig	poprawny	
+adj	falsch	błędny	
+ph	Wie alt bist du?	Ile masz lat?	
+ph	Ich bin dreißig Jahre alt.	Mam trzydzieści lat.	
+ph	Wie ist Ihre Telefonnummer?	Jaki jest Pana/Pani numer telefonu?	
+ph	Wie schreibt man das?	Jak to się pisze?	
+ph	Das ist richtig.	To jest poprawne.	

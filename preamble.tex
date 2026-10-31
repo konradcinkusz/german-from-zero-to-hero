@@ -1,0 +1,163 @@
+% ============================================================================
+% preamble.tex -- all machinery, one edition (Polish explanations, German
+% content).  The house colours are the estate's (research-documentation).
+%
+% CONTRACT: main.tex defines \bookstatus BEFORE it \inputs this file, because
+% the running header reads it as it is read.
+% ============================================================================
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[ngerman,main=polish]{babel}
+\usepackage[a4paper,left=2.4cm,right=2.4cm,top=2.6cm,bottom=2.6cm]{geometry}
+\usepackage{microtype}
+\usepackage{xcolor}
+\usepackage{etoolbox}
+\usepackage{enumitem}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{colortbl}
+\usepackage{multicol}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage[most]{tcolorbox}
+\usepackage{amssymb}
+
+% ---- house colours ---------------------------------------------------------
+\definecolor{primaryblue}{RGB}{41,128,185}
+\definecolor{darkblue}{RGB}{31,78,121}
+\definecolor{lightgray}{RGB}{236,240,241}
+\definecolor{darkgray}{RGB}{52,73,94}
+\definecolor{accentgreen}{RGB}{39,174,96}
+\definecolor{accentorange}{RGB}{230,126,34}
+\definecolor{accentred}{RGB}{231,76,60}
+% grammatical gender: the article is always printed, colour only reinforces it
+\definecolor{colm}{RGB}{31,78,170}
+\definecolor{colf}{RGB}{200,40,60}
+\definecolor{coln}{RGB}{30,130,76}
+\newcommand{\artm}[1]{\textcolor{colm}{\textbf{#1}}}
+\newcommand{\artf}[1]{\textcolor{colf}{\textbf{#1}}}
+\newcommand{\artn}[1]{\textcolor{coln}{\textbf{#1}}}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.55em plus 0.2em minus 0.1em}
+\setlist{nosep,leftmargin=1.6em}
+\renewcommand{\arraystretch}{1.12}
+
+% ---- computed values: \val{key} reads generated/values.tex ----------------
+\input{generated/values}
+\input{generated/meta}
+\newcommand{\val}[1]{\ifcsname gval@#1\endcsname\csuse{gval@#1}\else\textbf{??}\fi}
+\newcommand{\twodig}[1]{\ifnum#1<10 0\fi\number#1}
+
+% ---- German and Polish text ------------------------------------------------
+\newcommand{\de}[1]{\foreignlanguage{ngerman}{\textcolor{darkblue}{#1}}}
+\newcommand{\deb}[1]{\foreignlanguage{ngerman}{\textcolor{darkblue}{\textbf{#1}}}}
+\newcommand{\code}[1]{\texttt{#1}}
+\newcommand{\ch}{\textit{CH}}
+% a claim that needs a primary source or a native speaker before you rely on it
+\newcommand{\verify}[1]{#1\textsuperscript{\textcolor{accentorange}{[?]}}}
+
+% ---- language names inside babel ------------------------------------------
+\addto\captionspolish{%
+  \renewcommand{\chaptername}{Tydzień}%
+  \renewcommand{\appendixname}{Dodatek}%
+  \renewcommand{\contentsname}{Spis treści}}
+
+% ---- headings ---------------------------------------------------------------
+\titleformat{\part}[display]
+  {\centering\color{primaryblue}\sffamily\bfseries\Huge}
+  {}{0pt}{}
+\titleformat{\chapter}[display]
+  {\color{darkblue}\sffamily\bfseries}
+  {\Large\color{primaryblue}\MakeUppercase{\chaptertitlename}\ \thechapter}{0.4em}{\Huge}[\vspace{0.3em}\titlerule]
+\titlespacing*{\chapter}{0pt}{-10pt}{22pt}
+\titleformat{\section}
+  {\color{primaryblue}\Large\bfseries\sffamily}{\thesection}{0.6em}{}
+\titleformat{\subsection}
+  {\color{darkblue}\large\bfseries\sffamily}{}{0pt}{}
+\titlespacing*{\subsection}{0pt}{1.1em}{0.3em}
+
+% ---- running header: status rides on every page ----------------------------
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0.4pt}
+\fancyhead[L]{\small\sffamily\color{darkgray}\nouppercase{\leftmark}}
+\fancyhead[R]{\small\sffamily\color{accentred}\bookstatus}
+\fancyfoot[C]{\small\thepage}
+\fancypagestyle{plain}{\fancyhf{}\renewcommand{\headrulewidth}{0pt}\fancyfoot[C]{\small\thepage}}
+
+% ---- boxes ------------------------------------------------------------------
+\tcbset{mfa/.style={enhanced,breakable,boxrule=0pt,frame hidden,left=9pt,right=8pt,top=5pt,bottom=5pt,
+  before skip=9pt,after skip=9pt,borderline west={3pt}{0pt}{#1},colback=#1!7}}
+\newcommand{\boxlead}[2]{{\sffamily\bfseries\color{#1}#2.}\ }
+\newtcolorbox{falle}[1][Pułapka dla Polaka]{mfa=accentred,before upper={\boxlead{accentred}{#1}}}
+\newtcolorbox{szwajcaria}[1][Szwajcaria]{mfa=accentorange,before upper={\boxlead{accentorange}{#1}}}
+\newtcolorbox{praca}[1][W pracy]{mfa=primaryblue,before upper={\boxlead{primaryblue}{#1}}}
+\newtcolorbox{zasada}[1][Zasada]{mfa=accentgreen,before upper={\boxlead{accentgreen}{#1}}}
+\newtcolorbox{uwaga}[1][Uwaga]{mfa=darkgray,before upper={\boxlead{darkgray}{#1}}}
+
+% can-do goals: a checkbox list the learner ticks
+\newenvironment{candos}
+  {\begin{tcolorbox}[mfa=primaryblue]{\sffamily\bfseries\color{primaryblue}Po tym tygodniu potrafisz (\textit{Ich kann \ldots}):}\begin{itemize}[label=$\square$]}
+  {\end{itemize}\end{tcolorbox}}
+
+\newcommand{\weekend}[1]{%
+  \begin{tcolorbox}[mfa=accentgreen]
+  {\sffamily\bfseries\color{accentgreen}Zadanie weekendowe (produkcja, nie rozpoznawanie).}\ #1
+  \end{tcolorbox}}
+
+% ---- unit opener ------------------------------------------------------------
+\newcommand{\unitopen}[1]{%
+  \chapter[\csuse{unittitle@#1}]{\csuse{unittitle@#1}}%
+  \begin{center}\small\sffamily\color{darkgray}
+  \textbf{\csuse{unitlevel@#1}}\quad|\quad tydzień kalendarzowy \csuse{unitweek@#1}\quad|\quad
+  \foreignlanguage{ngerman}{\csuse{unittitlede@#1}}\\
+  gramatyka: \csuse{unitgrammar@#1}\quad|\quad nowe słowa: \csuse{unitwords@#1}
+  \end{center}}
+
+% ---- vocabulary: tables are GENERATED from data/vocab ------------------------
+\newenvironment{vocabtab}
+  {\begin{longtable}{@{}>{\raggedright\arraybackslash}p{0.38\linewidth}>{\raggedright\arraybackslash}p{0.30\linewidth}>{\raggedright\arraybackslash\color{darkgray}}p{0.27\linewidth}@{}}
+   \toprule\textsf{\textbf{Deutsch}}&\textsf{\textbf{Polski}}&\textsf{\textbf{Uwagi}}\\\midrule\endhead
+   \bottomrule\endlastfoot}
+  {\end{longtable}}
+\newcommand{\vrow}[3]{\de{#1} & #2 & #3\\}
+\newcommand{\vocabtable}[1]{\input{generated/vocab-u#1}}
+% the alphabetical index is paragraphs, not a table: longtable cannot live in multicols
+\newenvironment{indextable}{\begin{multicols}{2}\small\raggedright}{\end{multicols}}
+\newcommand{\irow}[3]{\par\noindent\hangindent=1em \de{#1} --- #2 \hfill{\color{darkgray}t.#3}\par}
+
+% ---- calendar ----------------------------------------------------------------
+\newenvironment{plantable}
+  {\begin{longtable}{@{}rcrp{0.37\linewidth}p{0.32\linewidth}@{}}
+   \toprule\textsf{\textbf{Tydz.}}&\textsf{\textbf{Poz.}}&\textsf{\textbf{Nr}}&\textsf{\textbf{Temat}}&\textsf{\textbf{Gramatyka}}\\\midrule\endhead
+   \bottomrule\endlastfoot}
+  {\end{longtable}}
+
+% ---- dialogues: German left, Polish right, speaker label --------------------
+\newenvironment{dialog}
+  {\par\medskip\begin{longtable}{@{}>{\bfseries}p{1.5em}p{0.45\linewidth}>{\color{darkgray}\itshape}p{0.40\linewidth}@{}}}
+  {\end{longtable}\par}
+\newcommand{\turn}[3]{#1 & \de{#2} & #3\\}
+
+% ---- exercises: answers are written where the exercise is, printed at the back
+\newcommand{\answerstore}{}
+\newcommand{\lastansunit}{0}
+\newenvironment{cwiczenia}
+  {\begin{enumerate}[label=\textbf{\arabic*.},leftmargin=2em,itemsep=0.35em]}
+  {\end{enumerate}}
+\newcommand{\exitem}[2]{%
+  \item #1%
+  \begingroup\edef\tmp{\endgroup\noexpand\gappto\noexpand\answerstore{%
+    \noexpand\answeritem{\number\value{chapter}}{\number\value{enumi}}{\unexpanded{#2}}}}\tmp}
+\newcommand{\answeritem}[3]{%
+  \ifnum#1=\lastansunit\else
+    \gdef\lastansunit{#1}\par\medskip\noindent{\sffamily\bfseries\color{primaryblue}Tydzień #1 --- \csname unittitle@\twodig{#1}\endcsname}\par\nobreak
+  \fi
+  \noindent\textbf{#1.#2}\ #3\par}
+
+% ---- hyperref last -----------------------------------------------------------
+\usepackage[colorlinks=true,linkcolor=primaryblue,urlcolor=primaryblue,citecolor=primaryblue,
+  pdftitle={Deutsch von Null bis B2},pdfauthor={Konrad Cinkusz},pdflang={pl-PL},bookmarksnumbered=true]{hyperref}

@@ -1,0 +1,44 @@
+pos	de	pl	note
+n	der Verkehr	ruch, komunikacja	bez liczby mnogiej
+n	die Haltestelle, Haltestellen	przystanek	
+n	der Bus, Busse	autobus	
+n	die Straßenbahn, Straßenbahnen	tramwaj	CH: das Tram
+n	die U-Bahn, U-Bahnen	metro	
+n	die S-Bahn, S-Bahnen	kolej aglomeracyjna	w Zurychu: S-Bahn Zürich
+n	der Zug, Züge	pociąg	
+n	das Gleis, Gleise	tor, peron	CH: das Gleis
+n	die Fahrkarte, Fahrkarten	bilet	CH: das Billett
+n	der Fahrplan, Fahrpläne	rozkład jazdy	
+n	die Ecke, Ecken	róg	
+n	die Kreuzung, Kreuzungen	skrzyżowanie	
+n	die Ampel, Ampeln	sygnalizacja świetlna	
+n	die Brücke, Brücken	most	
+n	der Platz, Plätze	plac; miejsce	
+n	das Fahrrad, Fahrräder	rower	CH: das Velo
+n	der Flughafen, Flughäfen	lotnisko	
+n	das Ziel, Ziele	cel; cel podróży	
+n	die Richtung, Richtungen	kierunek	
+prep	mit	z, za pomocą	+ Dativ
+prep	nach	do (miasta), po	+ Dativ
+prep	zu	do (osoby, miejsca)	+ Dativ
+prep	von	od, z	+ Dativ
+prep	aus	z (środka, kraju)	+ Dativ
+prep	bei	u, przy	+ Dativ
+prep	seit	od (jakiegoś czasu)	+ Dativ
+prep	durch	przez	+ Akkusativ
+prep	um	dookoła; o (godzinie)	+ Akkusativ
+prep	gegenüber	naprzeciwko	+ Dativ
+adv	geradeaus	prosto	
+adv	weit	daleko	
+adv	nah	blisko	
+adv	zurück	z powrotem	
+v	abbiegen	skręcać	ich biege ab
+v	überqueren	przechodzić przez	
+v	umsteigen	przesiadać się	ich steige um
+v	aussteigen	wysiadać	
+v	einsteigen	wsiadać	
+ph	Wie komme ich zum Bahnhof?	Jak dojdę na dworzec?	
+ph	Entschuldigung, wo ist die Haltestelle?	Przepraszam, gdzie jest przystanek?	
+ph	Nehmen Sie die erste Straße links.	Proszę skręcić w pierwszą ulicę w lewo.	
+ph	Ist es weit von hier?	Czy to daleko stąd?	
+ph	Ich bin fremd hier.	Nie jestem stąd.	
