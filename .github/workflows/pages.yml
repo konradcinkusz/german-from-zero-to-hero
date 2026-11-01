@@ -34,12 +34,22 @@ jobs:
           root_file: main.tex
           args: -pdf -interaction=nonstopmode -halt-on-error -file-line-error
       - run: python3 tools/check_log.py main.log
+      - name: Compile the flashcard decks
+        uses: xu-cheng/latex-action@v4
+        with:
+          working_directory: flashcards
+          root_file: |
+            grammar.tex
+            vocab.tex
+          args: -pdf -interaction=nonstopmode -halt-on-error -file-line-error
       - name: Assemble _site (the page, the PDF and the Anki decks only)
         run: |
           mkdir -p _site/anki
           cp docs/index.html _site/
           cp main.pdf _site/Deutsch-von-Null-bis-B2.pdf
           cp anki/german-*.tsv _site/anki/
+          cp flashcards/grammar.pdf _site/Fiszki-gramatyka.pdf
+          cp flashcards/vocab.pdf _site/Fiszki-slownictwo.pdf
       - uses: actions/configure-pages@v6
       - uses: actions/upload-pages-artifact@v5
         with:

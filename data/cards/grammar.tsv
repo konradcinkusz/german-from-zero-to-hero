@@ -1,0 +1,101 @@
+level	category	difficulty	question	answer
+A1	Wymowa	1	Jak czytasz „ei” w słowie „mein”?	jak „aj”: [majn]
+A1	Wymowa	1	Jak czytasz „ie” w słowie „sieben”?	jak długie „i”: [zibn]
+A1	Wymowa	1	Jak czytasz „eu” w słowie „Deutsch”?	jak „oj”: [dojcz]
+A1	Wymowa	1	Jak czytasz „sch” i „sp-/st-” na początku słowa?	„sch” = „sz”; „sp-” = „szp-”, „st-” = „szt-” (Schule, Sprache, Stadt)
+A1	Wymowa	2	Kiedy „ch” jest miękkie, a kiedy twarde?	Twarde po a, o, u, au (Buch, Nacht); miękkie po pozostałych samogłoskach i po l, n, r (ich, Milch)
+A1	Wymowa	1	Jak czytasz „z” i „v”?	„z” = „c” (zehn); „v” zwykle = „f” (Vater)
+A1	Wymowa	2	Dlaczego „Tag” czytamy [tak]?	Na końcu słowa b, d, g tracą dźwięczność: [p], [t], [k]
+A1	Powitania	1	Jak powiesz „Dzień dobry” formalnie po południu?	Guten Tag
+A1	Powitania	1	Jak zapytasz „Jak się Pan/Pani miewa?”	Wie geht es Ihnen?
+A1	Powitania	2	Kiedy używasz „Sie”, a kiedy „du”?	„Sie” formalnie (klient, urząd, rozmowa kwalifikacyjna); „du” w zespole i wśród znajomych, po propozycji
+A1	Czasowniki	1	Odmień „sein” w liczbie pojedynczej.	ich bin, du bist, er/sie/es ist
+A1	Czasowniki	1	Odmień „haben” w liczbie pojedynczej.	ich habe, du hast, er/sie/es hat
+A1	Czasowniki	1	Jakie końcówki mają regularne czasowniki w Präsens?	-e, -st, -t, -en, -t, -en
+A1	Czasowniki	2	Podaj „du” od „nehmen”, „fahren”, „lesen”.	du nimmst, du fährst, du liest
+A1	Szyk	1	Na którym miejscu stoi odmieniony czasownik w zdaniu oznajmującym?	Na drugim: Heute arbeite ich zu Hause.
+A1	Szyk	2	Co to jest klamra zdaniowa?	Odmieniony czasownik na 2. miejscu, bezokolicznik lub przedrostek na końcu: Ich muss früh aufstehen.
+A1	Rodzajniki	1	Jakie rodzajniki określone mają trzy rodzaje i liczba mnoga?	der (m), die (f), das (n), die (mnoga)
+A1	Rodzajniki	2	Co zmienia się w bierniku (Akkusativ)?	Tylko rodzaj męski: der → den, ein → einen, kein → keinen
+A1	Rodzajniki	2	Który rodzaj mają rzeczowniki na -ung, -heit, -keit, -schaft, -ion?	żeński (die)
+A1	Przeczenie	2	Kiedy „kein”, a kiedy „nicht”?	„kein” przeczy rzeczownik z „ein”/bez rodzajnika; „nicht” czasownik, przymiotnik, rzeczownik z „der/die/das”
+A1	Zwroty	1	Jak powiesz „Mam 30 lat”?	Ich bin 30 Jahre alt. (sein, nie haben)
+A1	Zwroty	1	Jak grzecznie zamówisz kawę?	Ich möchte einen Kaffee. / Ich hätte gern einen Kaffee.
+A1	Czas	1	Co znaczy „halb neun”?	8:30 (pół do dziewiątej)
+A1	Czas	2	Które przyimki stoją przy dniu, godzinie i miesiącu?	am Montag, um acht Uhr, im Mai
+A1	Modalne	2	Czym różni się „Du musst nicht kommen” od „Du darfst nicht kommen”?	Pierwsze: nie musisz; drugie: nie wolno ci
+A1	Przyimki	3	Kiedy po „in/auf/an” jest celownik, a kiedy biernik?	Wo? (miejsce) → Dativ; Wohin? (ruch do celu) → Akkusativ
+A1	Czasowniki	2	Gdzie stoi przedrostek „auf” w „aufstehen”?	Na końcu zdania: Ich stehe um sieben Uhr auf.
+A1	Imperativ	2	Jak utworzysz rozkaz do „du” i „Sie” od „kommen”?	Komm! / Kommen Sie!
+A1	Liczby	2	Jak powiesz 21, 34, 67?	einundzwanzig, vierunddreißig, siebenundsechzig (jedności przed dziesiątkami)
+A1	Szwajcaria	1	Jak pozdrowisz w Szwajcarii i jak podziękujesz potocznie?	Grüezi; Merci (dialektalne, ale zrozumiałe)
+A1	Szwajcaria	1	Czy w Szwajcarii używa się „ß”?	Nie: zawsze „ss” (Strasse, dreissig)
+A2	Przypadki	2	Które przyimki zawsze wymagają celownika?	aus, bei, mit, nach, seit, von, zu, gegenüber
+A2	Przypadki	2	Które przyimki zawsze wymagają biernika?	durch, für, gegen, ohne, um
+A2	Przypadki	2	Wymień zaimki osobowe w celowniku.	mir, dir, ihm, ihr, ihm, uns, euch, ihnen / Ihnen
+A2	Przypadki	3	Jaka jest kolejność dopełnień w zdaniu?	Dwa rzeczowniki: Dativ przed Akkusativ; dwa zaimki: Akkusativ przed Dativ (Ich gebe ihn ihm)
+A2	Perfekt	2	Z jakim czasownikiem pomocniczym tworzysz Perfekt czasowników ruchu?	sein: Ich bin nach Zürich gefahren.
+A2	Perfekt	2	Jak tworzysz Partizip II regularnego czasownika?	ge- + rdzeń + -t: gemacht, gearbeitet (bez ge- przy -ieren i be-/ver-/er-/ent-)
+A2	Perfekt	2	Podaj Partizip II: gehen, kommen, sehen, essen.	gegangen, gekommen, gesehen, gegessen
+A2	Präteritum	2	Które czasowniki mówisz zwykle w Präteritum?	sein (war), haben (hatte) i modalne (konnte, musste)
+A2	Nebensätze	2	Gdzie stoi odmieniony czasownik po „weil”, „dass”, „wenn”, „ob”?	Na końcu zdania podrzędnego
+A2	Nebensätze	3	Czym różni się „weil” od „denn”?	„weil” → czasownik na końcu; „denn” → szyk normalny
+A2	Stopniowanie	2	Podaj stopniowanie: gut, viel, gern.	besser/am besten; mehr/am meisten; lieber/am liebsten
+A2	Stopniowanie	2	„als” czy „wie” przy porównaniu?	Wyższy stopień: als (größer als); równość: so … wie
+A2	Zwrotne	2	Podaj zaimki zwrotne dla wszystkich osób.	mich, dich, sich, uns, euch, sich
+A2	Zwrotne	3	Jaki przyimek po „sich freuen” (przyszłość) i „sich interessieren”?	sich freuen auf + Akk; sich interessieren für + Akk
+A2	Przymiotniki	3	Jakie końcówki przymiotnika po „der/die/das” w mianowniku?	-e (m, f, n); w mnogiej -en
+A2	Przymiotniki	3	Jakie końcówki po „ein” w mianowniku męskim i nijakim?	-er (ein neuer Laptop), -es (ein neues Auto)
+A2	Futur	2	Jak tworzysz Futur I?	werden + bezokolicznik na końcu: Ich werde Deutsch lernen.
+A2	Uprzejmość	2	Podaj trzy grzeczne formy próśb.	Könnten Sie …? / Ich hätte gern … / Wäre es möglich, …?
+A2	E-mail	2	Jak zaczniesz formalny e-mail do pani Keller?	Sehr geehrte Frau Keller,
+A2	Szwajcaria	2	Jak kończysz formalny e-mail w Szwajcarii?	Freundliche Grüsse (DE: Mit freundlichen Grüßen)
+A2	Szwajcaria	1	Jak po szwajcarsku: rower, bilet, parkować?	Velo, Billett, parkieren
+B1	Nebensätze	3	„damit” czy „um … zu”?	Ten sam podmiot: um … zu; różne podmioty: damit
+B1	Nebensätze	3	„als” czy „wenn” w przeszłości?	als: jednorazowe zdarzenie; wenn: powtarzalne
+B1	Nebensätze	2	Jaki czas po „nachdem”?	Perfekt (przy Präsens w głównym) lub Plusquamperfekt (przy Präteritum)
+B1	Relativsätze	3	Skąd bierzesz rodzaj i przypadek zaimka względnego?	Rodzaj i liczbę z poprzednika, przypadek z roli w zdaniu względnym
+B1	Relativsätze	3	Podaj zaimki względne w celowniku.	dem (m, n), der (f), denen (mnoga)
+B1	Genitiv	2	Jakie rodzajniki w dopełniaczu?	des (m, n) + -s, der (f, mnoga)
+B1	Genitiv	2	Podaj przyimki z dopełniaczem.	wegen, trotz, statt, während, innerhalb, außerhalb
+B1	Adjektive	3	Jak odmieniasz przymiotnik bez rodzajnika?	Końcówka rodzajnika: frischer Kaffee, frische Milch, frisches Brot
+B1	Passiv	2	Jak tworzysz Passiv Präsens i Präteritum?	werden/wurde + Partizip II: Der Code wird getestet. / wurde getestet.
+B1	Passiv	3	Jak dodajesz wykonawcę w Passiv?	von + Dativ (osoba), durch + Akkusativ (środek, przyczyna)
+B1	Konjunktiv II	2	Podaj formy „wäre”, „hätte”, „würde”, „könnte”.	ich wäre, hätte, würde, könnte (er tak samo)
+B1	Konjunktiv II	3	Jak zbudujesz nierealny warunek w teraźniejszości?	Wenn ich Zeit hätte, würde ich kommen. (jedna „würde”)
+B1	Konjunktiv II	3	Jak w przeszłości nierealnej?	hätte/wäre + Partizip II: Wenn ich das gewusst hätte, wäre ich gekommen.
+B1	Präteritum	2	Podaj Präteritum: gehen, kommen, sehen, finden.	ging, kam, sah, fand
+B1	Plusquamperfekt	3	Jak tworzysz Plusquamperfekt?	hatte/war + Partizip II
+B1	Präpositionen	3	Jaki przyimek: warten …, denken …, sprechen …, fragen …?	warten auf (Akk), denken an (Akk), sprechen über (Akk), fragen nach (Dat)
+B1	Präpositionen	3	Jak tworzysz pytanie o rzecz i odpowiedź zaimkiem?	wo(r)- + przyimek: Worauf wartest du? / da(r)- + przyimek: Ich warte darauf.
+B1	Konnektoren	3	Jaki szyk po „deshalb”, „trotzdem”, „außerdem”?	Czasownik na 2. miejscu: Deshalb haben wir …
+B1	Meinung	2	Jak wyrazisz opinię i sprzeciw uprzejmie?	Ich finde, dass … / Da bin ich anderer Meinung. / Ich sehe das etwas anders.
+B1	Bewerbung	2	Jakie trzy pytania z rozmowy kwalifikacyjnej musisz umieć?	Erzählen Sie etwas über sich. / Warum möchten Sie bei uns arbeiten? / Was sind Ihre Stärken?
+B1	IT	2	Podaj Partizip II: mergen, deployen, reviewen.	gemergt, deployt, reviewt
+B1	IT	2	Jak powiesz w standupie, że jesteś zablokowany?	Ich bin blockiert, weil mir der Zugriff fehlt.
+B1	Szwajcaria	2	Czym jest Franchise i Prämie w ubezpieczeniu?	Franchise: udział własny rocznie; Prämie: składka (im wyższa Franchise, tym niższa Prämie)
+B1	Szwajcaria	2	Co znaczy Znüni, Zmittag, Zvieri?	przekąska ok. 9:00, obiad, przekąska po południu
+B1	Szwajcaria	2	Czy Szwajcarzy mówią dialektem do osoby uczącej się?	Zwykle przechodzą na standard; dialekt rozumiej, standardem mów
+B2	Nominalstil	3	Zamień „Wir prüfen den Antrag” na styl nominalny.	Die Prüfung des Antrags erfolgt (durch uns).
+B2	Nominalstil	3	Podaj Funktionsverbgefüge dla „entscheiden” i „bereitstellen”.	eine Entscheidung treffen; zur Verfügung stellen
+B2	Partizipien	3	Co to jest Partizip I i II jako określenie?	I: trwa (die steigenden Kosten); II: zakończone/bierne (die gespeicherten Daten)
+B2	Partizipien	3	Zamień na określenie: die Daten, die im Test verwendet wurden.	die im Test verwendeten Daten
+B2	Konjunktiv I	3	Kiedy używasz Konjunktiv I?	W mowie zależnej (dystans, prasa): Er sagte, er sei krank.
+B2	Konjunktiv I	3	Co robisz, gdy Konjunktiv I = Indikativ?	Zastępujesz Konjunktiv II: Sie sagten, sie hätten keine Zeit.
+B2	Passiv	3	Czym różni się „Die Tür wird geschlossen” od „Die Tür ist geschlossen”?	proces (Vorgangspassiv) vs stan (Zustandspassiv)
+B2	Passiv	3	Podaj trzy zastępniki strony biernej.	man; sich lassen (Das lässt sich lösen); -bar; sein + zu (ist zu beheben)
+B2	Konnektoren	3	Jak działa „je … desto”?	Je + zdanie podrzędne (czasownik na końcu), desto + zdanie główne (Je mehr …, desto besser wird …)
+B2	Konnektoren	3	Podaj spójniki: sposób, skutek, warunek.	indem; sodass; falls / sofern / es sei denn
+B2	Konnektoren	2	Zamień „ohne dass er fragt” na bezokolicznik.	ohne zu fragen
+B2	Präsentation	2	Jak odwołasz się do slajdu i podsumujesz?	Wie Sie auf dieser Folie sehen, … / Zusammenfassend lässt sich sagen, dass …
+B2	Präsentation	3	„um” czy „auf” przy wzroście i spadku?	um 20 Prozent gestiegen (o ile); von 80 auf 50 gesunken (do ilu)
+B2	Vertrag	2	Zapytaj, czy wynagrodzenie jest brutto czy netto.	Ist das Gehalt brutto oder netto?
+B2	Vertrag	3	Jak uprzejmie sygnalizujesz niezadowolenie z oferty?	Das entspricht nicht ganz meinen Vorstellungen.
+B2	Dokumentation	2	Podaj nagłówki raportu o incydencie.	Zusammenfassung, Zeitleiste, Grundursache, Maßnahmen, Nächste Schritte
+B2	Gespräch	3	Jak zaczniesz trudną rozmowę bez oskarżeń?	Darf ich kurz etwas ansprechen? Mir ist aufgefallen, dass …
+B2	Feinheiten	3	Jaką funkcję mają partykuły „doch”, „mal”, „eben/halt”?	doch: przypomnienie oczywistości; mal: łagodzi prośbę; eben/halt: „tak już jest”
+B2	Feinheiten	2	Jak czytasz długi wyraz złożony?	Od końca: ostatni człon wyznacza rodzaj i znaczenie podstawowe
+B2	Szwajcaria	3	Czym jest Quellensteuer i kiedy dotyczy?	Podatek u źródła; dotyczy często pracowników zagranicznych, zależy od pozwolenia, kantonu i dochodu (sprawdź u źródła)
+B2	Szwajcaria	3	Jak zachowuje się Szwajcar wobec krytyki w pracy?	Rzeczowo, uprzejmie, w cztery oczy; unika ostrych sformułowań
+B2	Egzamin	2	Jakie cztery moduły ma egzamin B2?	Lesen, Hören, Schreiben, Sprechen
+B2	Egzamin	2	Jak postępujesz z nieznanym słowem w nagraniu?	Nie zatrzymuję się, słucham dalej i wnioskuję z kontekstu

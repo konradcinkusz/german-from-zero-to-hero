@@ -146,8 +146,13 @@
 \newcommand{\answerstore}{}
 \newcommand{\lastansunit}{0}
 \newenvironment{cwiczenia}
-  {\begin{enumerate}[label=\textbf{\arabic*.},leftmargin=2em,itemsep=0.35em]}
+  {\begin{enumerate}[label=\textbf{\arabic*.},leftmargin=2em,itemsep=0.35em,series=cw]}
   {\end{enumerate}}
+% the generated vocabulary drill continues the numbering, so T.N stays unique in Appendix A
+\newenvironment{cwiczeniadalej}
+  {\begin{enumerate}[resume*=cw]}
+  {\end{enumerate}}
+\newcommand{\drill}[1]{\input{generated/drill-u#1}}
 \newcommand{\exitem}[2]{%
   \item #1%
   \begingroup\edef\tmp{\endgroup\noexpand\gappto\noexpand\answerstore{%

@@ -1,4 +1,4 @@
-.PHONY: all gen check verify clean debt
+.PHONY: all gen check verify clean debt flashcards
 # Everything under generated/ and anki/ is computed from data/ and COMMITTED,
 # so a changed number shows up in review and CI can fail on drift.
 
@@ -15,6 +15,11 @@ check:
 	python3 tools/check_book.py
 
 verify: check
+
+# Beamer flashcard decks (pdflatex, no shell-escape): grammar cards and the vocabulary deck
+flashcards: gen
+	cd flashcards && latexmk -pdf -interaction=nonstopmode -halt-on-error grammar.tex
+	cd flashcards && latexmk -pdf -interaction=nonstopmode -halt-on-error vocab.tex
 
 debt:
 	@python3 tools/debt.py

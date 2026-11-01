@@ -34,6 +34,7 @@
 # Built PDF. Released via GitHub Releases, not committed.
 main.pdf
 Deutsch-von-Null-bis-B2*.pdf
+flashcards/*.pdf
 
 # Editors and OS
 .vscode/
