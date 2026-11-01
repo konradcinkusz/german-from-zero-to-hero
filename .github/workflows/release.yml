@@ -37,6 +37,14 @@ jobs:
         with:
           root_file: main.tex
           args: -pdf -interaction=nonstopmode -halt-on-error -file-line-error
+      - name: Compile the flashcard decks
+        uses: xu-cheng/latex-action@v4
+        with:
+          working_directory: flashcards
+          root_file: |
+            grammar.tex
+            vocab.tex
+          args: -pdf -interaction=nonstopmode -halt-on-error -file-line-error
       - name: Refuse to release a broken log
         run: python3 tools/check_log.py main.log
       - name: Name the artefacts
@@ -45,6 +53,8 @@ jobs:
           mkdir -p dist
           cp main.pdf "dist/${PDF_NAME}-${TAG}.pdf"
           cp main.pdf "dist/${PDF_NAME}.pdf"
+          cp flashcards/grammar.pdf "dist/Fiszki-gramatyka.pdf"
+          cp flashcards/vocab.pdf "dist/Fiszki-slownictwo.pdf"
           (cd anki && zip -q ../dist/anki-decks.zip german-*.tsv)
       - uses: actions/upload-artifact@v7
         with:

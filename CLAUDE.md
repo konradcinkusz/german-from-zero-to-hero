@@ -37,6 +37,16 @@ lists, but a native speaker has not read them.
 8. **Run the source gates before the build**: `python3 tools/gen.py --check && python3 tools/check_book.py`.
    They read source and take seconds.
 
+## Flashcards and drills
+
+* `data/cards/grammar.tsv` (hand-written, `level, category, difficulty, question, answer`) and `data/vocab/`
+  generate `flashcards/areas/*.tex`; `flashcards/dfcards.cls` is a light sibling of `csharp-flashcards`'
+  `mybeamer.cls` (same card mechanic: question slide, answer frame, badge, 1-3 difficulty; no minted,
+  no fontawesome, plain pdflatex). Never hand-edit `flashcards/areas/`.
+* Every unit ends its exercises with `\drill{NN}`: a vocabulary drill generated from that unit's own word
+  list (seeded by the unit number, so regenerating changes nothing). It tests vocabulary memory, not grammar.
+* Not done: an ab-ovo bundle (`compile-bundle.py` in csharp-flashcards). Add it if the platform should read this deck.
+
 ## Unit anatomy (gate-enforced)
 
 `\unitopen{NN}`, a `candos` block, `\vocabtable{NN}`, a `dialog`, a `falle` (trap for Polish speakers)

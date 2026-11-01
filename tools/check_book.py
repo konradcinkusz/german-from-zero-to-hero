@@ -61,6 +61,7 @@ REQUIRED = [
     (r"\\vocabtable\{\d\d\}", "\\vocabtable{NN}"),
     (r"\\begin\{dialog\}", "at least one dialog"),
     (r"\\begin\{cwiczenia\}", "an exercise block"),
+    (r"\\drill\{\d\d\}", "\\drill{NN} (generated vocabulary drill)"),
     (r"\\weekend\{", "a \\weekend{...} production task"),
     (r"\\begin\{falle\}", "a trap box for Polish speakers (falle)"),
 ]
@@ -113,6 +114,9 @@ for p in sources:
         opens = re.findall(r"\\unitopen\{(\d\d)\}", s)
         if opens != [nn]:
             err(f"{rel}: must contain exactly one \\unitopen{{{nn}}}, found {opens}")
+        dr = re.findall(r"\\drill\{(\d\d)\}", s)
+        if dr != [nn]:
+            err(f"{rel}: \\drill must name this unit ({nn}), found {dr}")
         vt = re.findall(r"\\vocabtable\{(\d\d)\}", s)
         if vt != [nn]:
             err(f"{rel}: \\vocabtable must name this unit ({nn}), found {vt}")

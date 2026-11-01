@@ -60,3 +60,28 @@ jobs:
       - name: Report outstanding work
         if: always()
         run: python3 tools/debt.py >> "$GITHUB_STEP_SUMMARY"
+
+  flashcards:
+    name: Compile flashcard decks
+    needs: gates
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Compile the grammar and vocabulary decks
+        uses: xu-cheng/latex-action@v4
+        with:
+          working_directory: flashcards
+          root_file: |
+            grammar.tex
+            vocab.tex
+          args: -pdf -interaction=nonstopmode -halt-on-error -file-line-error
+
+      - uses: actions/upload-artifact@v7
+        with:
+          name: flashcards-pdf
+          path: |
+            flashcards/grammar.pdf
+            flashcards/vocab.pdf
+          retention-days: 14
