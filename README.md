@@ -8,6 +8,19 @@
 
 # Deutsch von Null bis B2
 
+## Pobierz
+
+| Plik | Co to jest | Release (najnowszy) | Strona |
+|---|---|---|---|
+| **Książka (PDF)** | kurs A1 → B2, 48 jednostek + dodatki | [Deutsch-von-Null-bis-B2.pdf](https://github.com/konradcinkusz/german-from-zero-to-hero/releases/latest/download/Deutsch-von-Null-bis-B2.pdf) | [PDF](https://konradcinkusz.github.io/german-from-zero-to-hero/Deutsch-von-Null-bis-B2.pdf) |
+| **Fiszki gramatyczne (PDF)** | pytanie → odpowiedź, A1–B2 | [Fiszki-gramatyka.pdf](https://github.com/konradcinkusz/german-from-zero-to-hero/releases/latest/download/Fiszki-gramatyka.pdf) | [PDF](https://konradcinkusz.github.io/german-from-zero-to-hero/Fiszki-gramatyka.pdf) |
+| **Fiszki słownictwa (PDF)** | niemiecki → polski, całe słownictwo | [Fiszki-slownictwo.pdf](https://github.com/konradcinkusz/german-from-zero-to-hero/releases/latest/download/Fiszki-slownictwo.pdf) | [PDF](https://konradcinkusz.github.io/german-from-zero-to-hero/Fiszki-slownictwo.pdf) |
+| **Anki (A1–B2)** | cztery pliki TSV, karta w obie strony | [anki-decks.zip](https://github.com/konradcinkusz/german-from-zero-to-hero/releases/latest/download/anki-decks.zip) | [A1](https://konradcinkusz.github.io/german-from-zero-to-hero/anki/german-a1.tsv) · [A2](https://konradcinkusz.github.io/german-from-zero-to-hero/anki/german-a2.tsv) · [B1](https://konradcinkusz.github.io/german-from-zero-to-hero/anki/german-b1.tsv) · [B2](https://konradcinkusz.github.io/german-from-zero-to-hero/anki/german-b2.tsv) |
+
+Linki działają po pierwszym wydaniu (tag `v*`) i po włączeniu GitHub Pages. Do tego czasu pobierz PDF-y z artefaktów
+[ostatniego builda](https://github.com/konradcinkusz/german-from-zero-to-hero/actions/workflows/build.yml)
+(`book-pdf`, `flashcards-pdf`; wygasają po 14 dniach).
+
 **Niemiecki od zera do B2 w 52 tygodnie** — kurs dla inżyniera oprogramowania, który chce
 pracować w Szwajcarii (Zurych). Po polsku, z niemieckimi przykładami, dialogami, ćwiczeniami
 z kluczem, fiszkami Anki i dodatkiem o szwajcarskim kontekście zawodowym.
@@ -32,7 +45,6 @@ Zgłoś błąd przez [erratum](.github/ISSUE_TEMPLATE/erratum.yml).
 
 | | |
 |---|---|
-| PDF | [Releases](https://github.com/konradcinkusz/german-from-zero-to-hero/releases) (po tagu `v*`) albo artefakt ostatniego builda |
 | Anki | `anki/german-a1.tsv` … `german-b2.tsv` — import jest już opisany nagłówkami (talia `Deutsch::A1`, karta w obie strony) |
 | Dane | `data/units.tsv` (kolejność), `data/vocab/uNN.tsv` (słownictwo jednostki NN) |
 
